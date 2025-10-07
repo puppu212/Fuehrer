@@ -4,8 +4,6 @@
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) 
 
-<br>
-
 ## ダウンロード方法
 ```markdown
 
@@ -15,8 +13,6 @@
 2. 最新リリースの Assets から ZIP ファイルをダウンロード
 
 ```
-
-<br>
 
 ## 注意事項
 
