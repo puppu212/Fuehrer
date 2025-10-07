@@ -1,0 +1,1105 @@
+//ÉGÉäÅ[É[
+unit Elise : base
+{
+name = Elise
+face = Elise.png
+same_call = on
+image = er_ht1
+race = er
+sex = female
+help = Fuererin
+
+finance = @
+
+staff = er,er_mt1,er_ar1,er_ca1
+friend = er,er_mt1,er_ar1,er_ca1
+merce = er_ht1,er_mt1,er_ar1,er_ca1
+class = er_ht1
+member = er_ht1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_attack3,ls_speed3,ls_t3
+
+talent = on
+sortkey = 1
+
+dead = Ç¨Ç·Ç”ÇÒ
+bgm = @
+}
+unit er_ss1 : Elise
+{
+name = 1.SS 'Leibstandarte'
+face = SS.png
+image = er_ht1
+sex = male
+finance = 0
+class = er_ht1
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_attack2,ls_speed2,ls_t2
+
+sortkey = 2
+help = @
+
+dead = @
+}
+unit er_ss2 : er_ss1
+{
+name = 2.SS 'Das Reich'
+face = SS.png
+sortkey = 3
+}
+unit er_ss3 : er_ss1
+{
+name = 3.SS 'Germania'
+face = SS.png
+sortkey = 4
+}
+
+//íÜêÌé‘
+unit er_mt_ge1 : base
+{
+name = 1.Panzer-Division
+face = er_ge0
+same_call = on
+image = er_mt1
+race = er
+sex = male
+finance = 0
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_attack,ls_speed,ls_t1
+
+staff = er,er_mt1
+friend = er,er_mt1
+merce = er_mt1
+class = er_mt1
+member = er_mt1 * 7
+
+talent = on
+sortkey = 5
+}
+unit er_mt_ge2 : er_mt_ge1
+{
+name = 2.Panzer-Division
+sortkey = 6
+}
+unit er_mt_ge3 : er_mt_ge1
+{
+name = 3.Panzer-Division
+sortkey = 7
+}
+unit er_mt_ge4 : er_mt_ge1
+{
+name = 4.Panzer-Division
+sortkey = 8
+}
+unit er_mt_ge5 : er_mt_ge1
+{
+name = Panzer-Division Kempf
+
+staff = er,er_mt1,er_ar1,er_ca1
+friend = er,er_mt1,er_ar1,er_ca1
+merce = er_mt1,er_ar1,er_ca1
+class = er_mt1
+member = er_mt1 * 7
+
+sortkey = 9
+}
+
+//é©ëññC
+unit er_ar_ge1 : base
+{
+name = 1.Artillerie-Division
+face = er_ge0
+same_call = on
+image = er_ar1
+race = er
+sex = male
+finance = 0
+
+skill = ar_hi1,ls_attack,ls_speed,ls_t1
+
+staff = er,er_ar1
+friend = er,er_ar1
+merce = er_ar1
+class = er_ar1
+member = er_ar1 * 7
+
+talent = on
+sortkey = 10
+}
+unit er_ar_ge2 : er_ar_ge1
+{
+name = 2.Artillerie-Division
+sortkey = 11
+}
+unit er_ar_ge3 : er_ar_ge1
+{
+name = 3.Artillerie-Division
+sortkey = 12
+}
+unit er_ar_ge4 : er_ar_ge1
+{
+name = 4.Artillerie-Division
+sortkey = 13
+}
+
+//ï∫àıóAëóé‘
+unit er_ca_ge1 : base
+{
+name = 1.Intfanterie-Division
+face = er_ge0
+same_call = on
+image = er_ca1
+race = er
+sex = male
+finance = 0
+
+skill = ca_su1,ca_de1,ls_attack,ls_speed,ls_t1
+
+staff = er,er_ca1
+friend = er,er_ca1
+merce = er_ca1
+class = er_ca1
+member = er_ca1 * 7
+
+talent = on
+sortkey = 14
+}
+unit er_ca_ge2 : er_ca_ge1
+{
+name = 2.Intfanterie-Division
+sortkey = 15
+}
+unit er_ca_ge3 : er_ca_ge1
+{
+name = 3.Intfanterie-Division
+sortkey = 16
+}
+unit er_ca_ge4 : er_ca_ge1
+{
+name = 4.Intfanterie-Division
+sortkey = 17
+}
+
+
+//É}ÉäÉA
+unit Maria : base
+{
+name = Maria
+face = Maria.png
+same_call = on
+image = ar_ht1
+race = car
+sex = female
+help = La Duce
+
+finance = @
+
+staff = car,ar_mt1,ar_ar1,ar_ca1
+friend = car,ar_mt1,ar_ar1,ar_ca1
+merce = ar_ht1,ar_mt1,ar_ar1,ar_ca1
+class = ar_ht1
+member = ar_ht1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_dext3,ls_move3,ls_t3
+
+talent = on
+sortkey = 1
+
+dead = Ç¨Ç·Ç”ÇÒ
+}
+unit car_ht_ge1 : Maria
+{
+name = 131a Divisione 'Centauro'
+face = car_ge0.png
+image = ar_ht1
+sex = male
+finance = 0
+
+staff = car,ar_mt1,ar_ar1
+friend = car,ar_mt1,ar_ar1
+merce = ar_ht1,ar_mt1,ar_ar1
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_dext,ls_move,ls_t1
+
+sortkey = 2
+help = @
+
+dead = @
+}
+unit car_ht_ge2 : car_ht_ge1
+{
+name = 132a Divisione 'Ariete'
+sortkey = 3
+}
+unit car_ht_ge3 : car_ht_ge1
+{
+name = 133a Divisione 'Littorio'
+sortkey = 4
+}
+
+//íÜêÌé‘
+unit car_ccnn1 : base
+{
+name = 1a CC.NN. '23 Marzo'
+face = CCNN1.png
+same_call = on
+image = ar_mt1
+race = car
+sex = male
+finance = 0
+
+staff = car,ar_mt1,ar_ar1,ar_ca1
+friend = car,ar_mt1,ar_ar1,ar_ca1
+merce = ar_mt1,ar_ar1,ar_ca1
+class = ar_mt1
+member = ar_mt1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_dext2,ls_move2,ls_t2
+
+talent = on
+sortkey = 5
+}
+unit car_ccnn2 : car_ccnn1
+{
+name = 2a CC.NN. '28 Ottobre'
+sortkey = 6
+}
+unit car_ccnn3 : car_ccnn1
+{
+name = 3a CC.NN. '21 Aprile'
+sortkey = 7
+}
+unit car_ccnn4 : car_ccnn1
+{
+name = 4a CC.NN. '3 Gennaio'
+sortkey = 8
+}
+
+//é©ëññC
+unit car_ar_ge1 : base {
+name = 1a Divisione di Artiglieria
+face = car_ge0.png
+same_call = on
+image = ar_ar1
+race = car
+sex = male
+finance = 0
+
+staff = car,ar_ca1
+friend = car,ar_ca1
+merce = ar_ar1
+class = ar_ar1
+member = ar_ar1 * 7
+
+skill = ar_hi1,ls_dext,ls_move,ls_t1
+
+talent = on
+sortkey = 9
+}
+unit car_ar_ge2 : car_ar_ge1
+{
+name = 2a Divisione di Artiglieria
+sortkey = 10
+}
+unit car_ar_ge3 : car_ar_ge1
+{
+name = 3a Divisione di Artiglieria
+sortkey = 11
+}
+unit car_ar_ge4 : car_ar_ge1
+{
+name = 4a Divisione di Artiglieria
+sortkey = 12
+}
+
+//ï∫àıóAëóé‘
+unit car_ca_ge1 : base
+{
+name = 101a Divisione 'Trieste'
+face = car_ge0.png
+same_call = on
+image = ar_ca1
+race = car
+sex = male
+finance = 0
+
+staff = car,ar_ca1
+friend = car,ar_ca1
+merce = ar_ca1
+class = ar_ca1
+member = ar_ca1 * 7
+
+skill = ca_su1,ca_de1,ls_dext,ls_move,ls_t1
+
+talent = on
+sortkey = 13
+}
+unit car_ca_ge2 : car_ca_ge1
+{
+name = 102a Divisione 'Trento'
+sortkey = 14
+}
+unit car_ca_ge3 : car_ca_ge1
+{
+name = 1a Divisione di Fanteria
+sortkey = 15
+}
+unit car_ca_ge4 : car_ca_ge1
+{
+name = 2a Divisione di Fanteria
+sortkey = 16
+}
+
+
+//ÉåÉCÉ`ÉFÉã
+unit Rachel : base
+{
+name = Rachel
+face = Rachel.png
+same_call = on
+image = av_ht1
+race = ava
+sex = female
+help = Prime Minister
+
+finance = @
+
+staff = ava,av_mt1,av_ar1,av_ca1
+friend = ava,av_mt1,av_ar1,av_ca1
+merce = av_ht1,av_mt1,av_ar1,av_ca1
+class = av_ht1
+member = av_ht1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_mp3,ls_defense3,ls_t3
+
+talent = on
+sortkey = 1
+
+dead = Ç¨Ç·Ç”ÇÒ
+bgm = @
+}
+unit av_ht_ge1 : Rachel
+{
+name = 21th Army Tank Brigade
+face = av_ge0.png
+image = av_ht1
+sex = male
+finance = 0
+
+staff = ava,av_mt1,av_ar1
+friend = ava,av_mt1,av_ar1
+merce = av_ht1,av_mt1,av_ar1
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_mp2,ls_defense2,ls_t2
+
+sortkey = 2
+help = @
+
+dead = @
+}
+unit av_ht_ge2 : av_ht_ge1
+{
+name = 22th Army Tank Brigade
+sortkey = 3
+}
+unit av_ht_ge3 : av_ht_ge1
+{
+name = 23th Army Tank Brigade
+sortkey = 4
+}
+
+//íÜêÌé‘
+unit av_mt_ge1 : base
+{
+name = 1st Armoured Division
+face = av_ge0.png
+same_call = on
+image = av_mt1
+race = ava
+sex = male
+finance = 0
+
+staff = ava,av_mt1
+friend = ava,av_mt1
+merce = av_mt1
+class = av_mt1
+member = av_mt1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_mp,ls_defense,ls_t1
+
+talent = on
+sortkey = 6
+}
+unit av_mt_ge2 : av_mt_ge1
+{
+name = 2nd Armoured Division
+sortkey = 7
+}
+unit av_mt_ge3 : av_mt_ge1
+{
+name = 3rd Armoured Division
+sortkey = 8
+}
+unit av_mt_ge4 : av_mt_ge1
+{
+name = 4th Armoured Division
+sortkey = 9
+}
+
+//é©ëññC
+unit av_ar_ge1 : base
+{
+name = 50rd Artillery Division
+face = av_ge0.png
+same_call = on
+image = av_ar1
+race = ava
+sex = male
+finance = 0
+
+staff = ava,av_ar1
+friend = ava,av_ar1
+merce = av_ar1
+class = av_ar1
+member = av_ar1 * 7
+
+skill = ar_hi1,ls_mp,ls_defense,ls_t1
+
+talent = on
+sortkey = 10
+}
+unit av_ar_ge2 : av_ar_ge1
+{
+name = 55th Artillery Division
+sortkey = 11
+}
+unit av_ar_ge3 : av_ar_ge1
+{
+name = 60th Artillery Division
+sortkey = 12
+}
+unit av_ar_ge4 : av_ar_ge1
+{
+name = 65th Artillery Division
+sortkey = 13
+}
+
+//ï∫àıóAëóé‘
+unit av_ca_ge1 : base
+{
+name = 1st London Motonised Division
+face = av_ge0.png
+same_call = on
+image = av_ca1
+race = ava
+sex = male
+finance = 0
+
+staff = ava,av_ca1
+friend = ava,av_ca1
+merce = av_ca1
+class = av_ca1
+member = av_ca1 * 7
+
+skill = ca_su1,ca_de1,ls_mp,ls_defense,ls_t1
+
+talent = on
+sortkey = 14
+}
+unit av_ca_ge2 : av_ca_ge1
+{
+name = 2nd London Motonised Division
+sortkey = 15
+}
+
+unit av_ca_ge3 : av_ca_ge1
+{
+name = Gibraltar Command
+face = av_ge0.png
+same_call = on
+image = av_ca1
+race = ava
+sex = male
+finance = 0
+
+staff = ava,av_mt1,av_ar1,av_ca1
+friend = ava,av_mt1,av_ar1,av_ca1
+merce = av_mt1,av_ar1,av_ca1
+class = av_ca1
+member = av_ca1 * 7
+
+skill = ca_su1,ca_de1,ls_mp2,ls_defense2,ls_t2
+
+sortkey = 16
+}
+unit av_ca_ge4 : av_ca_ge3
+{
+name = Malta Command
+sortkey = 17
+}
+
+
+//ÉVÉÉÉãÉçÉbÉg
+unit Charlotte : base
+{
+name = Charlotte
+face = Charlotte.png
+same_call = on
+image = ly_ht1
+race = lys
+sex = female
+help = Presidente
+
+finance = @
+
+staff = lys,ly_mt1,ly_ar1,ly_ca1
+friend = lys,ly_mt1,ly_ar1,ly_ca1
+merce = ly_ht1,ly_mt1,ly_ar1,ly_ca1
+class = ly_ht1
+member = ly_ht1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_hp3,ls_t3
+
+talent = on
+sortkey = 1
+
+dead = Ç¨Ç·Ç”ÇÒ
+bgm = @
+}
+unit ly_ht_ge1 : Charlotte
+{
+name = 501e Rgt. de Chars de Combat
+face = ly_ge0.png
+image = ly_ht1
+sex = male
+finance = 0
+
+staff = lys,ly_mt1,ly_ar1
+friend = lys,ly_mt1,ly_ar1
+merce = ly_ht1,ly_mt1,ly_ar1
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_hp2,ls_t2
+
+sortkey = 2
+help = @
+
+dead = @
+}
+unit ly_ht_ge2 : ly_ht_ge1
+{
+name = 502e Rgt. de Chars de Combat
+sortkey = 3
+}
+unit ly_ht_ge3 : ly_ht_ge1
+{
+name = 503e Rgt. de Chars de Combat
+sortkey = 4
+}
+
+//íÜêÌé‘
+unit ly_mt_ge1 : base
+{
+name = 1ere Legere Mecanique
+face = ly_ge0.png
+same_call = on
+image = ly_mt1
+race = lys
+sex = male
+finance = 0
+
+staff = lys,ly_mt1
+friend = lys,ly_mt1
+merce = lys_mt1
+class = ly_mt1
+member = ly_mt1 * 7
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_hp,ls_t1
+
+talent = on
+sortkey = 5
+}
+unit ly_mt_ge2 : ly_mt_ge1
+{
+name = 2eme Legere Mecanique
+sortkey = 6
+}
+unit ly_mt_ge3 : ly_mt_ge1
+{
+name = 3eme Legere Mecanique
+sortkey = 7
+}
+unit ly_mt_ge4 : ly_mt_ge1
+{
+name = 4eme Legere Mecanique
+sortkey = 8
+}
+
+//é©ëññC
+unit ly_ar_ge1 : base
+{
+name = 1ere Division dÅfArtillerie
+face = ly_ge0.png
+same_call = on
+image = ly_ar1
+race = lys
+sex = male
+finance = 0
+
+staff = lys,ly_ar1
+friend = lys,ly_ar1
+merce = lys,ly_ar1
+class = ly_ar1
+member = ly_ar1 * 7
+
+skill = ar_hi1,ls_hp,ls_t1
+
+talent = on
+sortkey = 9
+}
+unit ly_ar_ge2 : ly_ar_ge1
+{
+name = 2ere Division dÅfArtillerie
+sortkey = 10
+}
+unit ly_ar_ge3 : ly_ar_ge1
+{
+name = 3eme Division dÅfArtillerie
+sortkey = 11
+}
+unit ly_ar_ge4 : ly_ar_ge1
+{
+name = 4eme Division dÅfArtillerie
+sortkey = 12
+}
+
+//ï∫àıóAëóé‘
+unit ly_ca_ge1 : base
+{
+name = 1ere Brigade Cuirassee
+face = ly_ge0.png
+same_call = on
+image = ly_ca1
+race = lys
+sex = male
+finance = 0
+
+staff = lys,ly_ca1
+friend = lys,ly_ca1
+merce = lys,ly_ca1
+class = ly_ca1
+member = ly_ca1 * 7
+
+skill = ca_su1,ca_de1,ls_hp,ls_t1
+
+talent = on
+sortkey = 13
+}
+unit ly_ca_ge2 : ly_ca_ge1
+{
+name = 2eme Brigade Cuirassee
+sortkey = 14
+}
+unit ly_ca_ge3 : ly_ca_ge1
+{
+name = 3eme Brigade Cuirassee
+sortkey = 15
+}
+unit ly_ca_ge4 : ly_ca_ge1
+{
+name = 4eme Brigade Cuirassee
+sortkey = 16
+}
+
+
+//É\ÉtÉBÅ[ÉÑ
+unit Sofiya : base
+{
+name = Sofiya
+face = Sofiya.png
+same_call = on
+image = na_ht1
+race = narv
+sex = female
+help = Generalniy Sekretar
+
+finance = @
+
+staff = narv,na_mt1,na_ar1,na_ca1
+friend = narv,na_mt1,na_ar1,na_ca1
+merce = na_ht1,na_mt1,na_ar1,na_ca1
+class = na_ht1
+member = na_ht1 * 7
+
+talent = on
+sortkey = 1
+
+dead = Ç¨Ç·Ç”ÇÒ
+bgm = @
+
+summon_max = 10
+skill = ta_tr1,ta_gu1,ta_re1,ta_de1,ls_summon3,ls_t3
+}
+unit na_ht_ge1 : Sofiya
+{
+name = 15ya NKVD  Diviziya
+face = NKVD.png
+image = na_ht1
+sex = male
+finance = 0
+
+staff = narv,na_mt1,na_ar1
+friend = narv,na_mt1,na_ar1
+merce = na_ht1,na_mt1,na_ar1
+
+skill = ta_tr1,ta_gu1,ta_re1,ta_de1,ls_summon2,ls_t2
+
+sortkey = 2
+help = @
+
+dead = Ç¨Ç·Ç”ÇÒ
+}
+unit na_ht_ge2 : na_ht_ge1
+{
+name = 20ya NKVD  Diviziya
+sortkey = 3
+}
+unit na_ht_ge3 : na_ht_ge1
+{
+name = 25ya NKVD  Diviziya
+sortkey = 4
+}
+
+//íÜêÌé‘
+unit na_mt_ge1 : base
+{
+name = 1ya NKVD Diviziya
+face = na_ge0.png
+same_call = on
+image = na_mt1
+race = narv
+sex = male
+finance = 0
+
+skill = ta_tr1,ta_gu1,ta_re1,ta_de1,na_ls1,ls_summon,ls_t1
+
+staff = narv,na_mt1
+friend = narv,na_mt1
+merce = na_mt1
+class = na_mt1
+member = na_mt1 * 7
+
+talent = on
+sortkey = 5
+}
+unit  na_mt_ge2 : na_mt_ge1
+{
+name = 2ya NKVD Diviziya
+sortkey = 6
+}
+unit na_mt_ge3 : na_mt_ge1
+{
+name = 3ya NKVD Diviziya
+sortkey = 7
+}
+unit na_mt_ge4 : na_mt_ge1
+{
+name = 4ya NKVD Diviziya
+sortkey = 8
+}
+
+//ñCï∫
+unit na_ar_ge1 : base
+{
+name = 11ya NKVD Diviziya
+face = na_ge0.png
+same_call = on
+image = na_ar1
+race = narv
+sex = male
+finance = 0
+
+skill = ar_hi1,ls_summon,ls_t1
+
+staff = narv,na_ar1
+friend = narv,na_ar1
+merce = na_ar1
+class = na_ar1
+member = na_ar1 * 7
+
+talent = on
+sortkey = 9
+}
+unit na_ar_ge2 : na_ar_ge1
+{
+name = 12ya NKVD Diviziya
+sortkey = 10
+}
+unit na_ar_ge3 : na_ar_ge1
+{
+name = 13ya NKVD Diviziya
+sortkey = 11
+}
+unit na_ar_ge4 : na_ar_ge1
+{
+name = 14ya NKVD Diviziya
+sortkey = 12
+}
+
+//ï∫àıóAëóé‘
+unit na_ca_ge1 : base
+{
+name = 101ya Motostrelkovaya
+face = na_ge0.png
+same_call = on
+image = na_ca1
+race = narv
+sex = male
+finance = 0
+
+skill = ca_su1,ca_de5,ls_summon,ls_t1
+
+staff = narv,na_ca1
+friend = narv,na_ca1
+merce = na_ca1
+class = na_ca1
+member = na_ca1 * 7
+
+talent = on
+sortkey = 13
+}
+unit na_ca_ge2 : na_ca_ge1
+{
+name = 102ya Motostrelkovaya
+sortkey = 14
+}
+unit na_ca_ge3 : na_ca_ge1
+{
+name = 103ya Motostrelkovaya
+sortkey = 15
+}
+unit na_ca_ge4 : na_ca_ge1
+{
+name = 104ya Motostrelkovaya
+sortkey = 16
+}
+
+
+//ÉmÉGÉã
+unit Noelle : base
+{
+name = Noelle
+face = Noelle.png
+same_call = on
+image = orv_ht1
+race = orv
+sex = female
+help = SCAEF
+
+finance = @
+
+staff = orv,orv_mt1,orv_ar1,orv_ca1
+friend = orv,orv_mt1,orv_ar1,orv_ca1
+merce = orv_ht1,orv_mt1,orv_ar1,orv_ca1
+class = orv_ht1
+member = orv_ht1 * 7
+
+talent = on
+sortkey = 1
+
+dead = Ç¨Ç·Ç”ÇÒ
+bgm = @
+
+summon_max = 5
+skill = ta_tr1,ta_gu1,ta_re1,ta_de2,ls_attack_orv3,ls_summon_orv3,ls_t3
+}
+unit orv_ht_ge1 : Noelle
+{
+name = 1st 'Big Red One' Division
+face = orv_ge0.png
+image = orv_ht1
+sex = male
+finance = 0
+
+staff = orv,orv_mt1,orv_ar1
+friend = orv,orv_mt1,orv_ar1
+merce = orv_ht1,orv_mt1,orv_ar1
+
+skill = ta_tr1,ta_gu1,ta_re1,ta_de2,ls_attack_orv2,ls_summon_orv2,ls_t2
+
+sortkey = 2
+help = @
+
+dead = Ç¨Ç·Ç”ÇÒ
+}
+unit orv_ht_ge2 : orv_ht_ge1
+{
+name = 2nd 'Indianhead' Division
+sortkey = 3
+}
+unit orv_ht_ge3 : orv_ht_ge1
+{
+name = 3rd 'Rock of the Marne' Division
+sortkey = 4
+}
+
+//íÜêÌé‘
+unit orv_mt_ge1 : base
+{
+name = 4th 'Red Devils' Division
+face = orv_ge0.png
+same_call = on
+image = orv_mt1
+race = orv
+sex = male
+finance = 0
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_attack_orv,ls_summon_orv,ls_t1
+
+staff = orv,orv_mt1
+friend = orv,orv_mt1
+merce = orv_mt1
+class = orv_mt1
+member = orv_mt1 * 7
+
+talent = on
+sortkey = 5
+}
+unit  orv_mt_ge2 : orv_mt_ge1
+{
+name = 5th 'Yankee' Division
+sortkey = 6
+}
+unit orv_mt_ge3 : orv_mt_ge1
+{
+name = 6th 'Sightseeing Sixth' Division
+sortkey = 7
+}
+unit orv_mt_ge4 : orv_mt_ge1
+{
+name = 7th 'Blue and Gray' Division
+sortkey = 8
+}
+unit orv_mt_ge5 : orv_mt_ge1
+{
+name = 8th 'Sunshine' Division
+sortkey = 17
+}
+unit orv_mt_ge6 : orv_mt_ge1
+{
+name = 9th 'Sunset' Division
+sortkey = 18
+}
+
+//ñCï∫
+unit orv_ar_ge1 : base
+{
+name = 31th 'Red Arrow' Division
+face = orv_ge0.png
+same_call = on
+image = orv_ar1
+race = orv
+sex = male
+finance = 0
+
+skill = ar_hi1,ls_attack_orv,ls_summon_orv,ls_t1
+
+staff = orv,na_ar1
+friend = orv,orv_ar1
+merce = orv_ar1
+class = orv_ar1
+member = orv_ar1 * 7
+
+talent = on
+sortkey = 9
+}
+unit orv_ar_ge2 : orv_ar_ge1
+{
+name = 32th 'Old Hickory' Division
+sortkey = 10
+}
+unit orv_ar_ge3 : orv_ar_ge1
+{
+name = 33th 'Buckeye' Division
+sortkey = 11
+}
+unit orv_ar_ge4 : orv_ar_ge1
+{
+name = 32th 'Winged Victory' Division
+sortkey = 12
+}
+
+//ï∫àıóAëóé‘
+unit orv_ca_ge1 : base
+{
+name = 41th 'Red Bull' Division
+face = orv_ge0.png
+same_call = on
+image = orv_ca1
+race = orv
+sex = male
+finance = 0
+
+skill = ca_su1,ca_de5,ls_attack_orv,ls_summon_orv,ls_t1
+
+staff = orv,orv_ca1
+friend = orv,orv_ca1
+merce = orv_ca1
+class = orv_ca1
+member = orv_ca1 * 7
+
+talent = on
+sortkey = 13
+}
+unit orv_ca_ge2 : orv_ca_ge1
+{
+name = 42th 'Golden Cross' Division
+sortkey = 14
+}
+unit orv_ca_ge3 : orv_ca_ge1
+{
+name = 43th 'Cyclone' Division
+sortkey = 15
+}
+unit orv_ca_ge4 : orv_ca_ge1
+{
+name = 44th 'Thunderbird' Division
+sortkey = 16
+}
+
+
+//ÉXÉgÅ[ÉäÅ[
+unit er_ge0 {
+name = Reinhard
+face = er_ge0
+help = SS-Brigadefuehrer
+}
+unit car_ge0 {
+name = Tiziano
+face = car_ge0
+help = Scorta
+}
+unit av_ge0 {
+name = Edward
+face = av_ge0
+help = Executive Aide
+}
+unit ly_ge0 {
+name = Victor
+face = ly_ge0
+help = General
+}
+unit na_ge0 {
+name = Andrey
+face = na_ge0
+help = Chinovnik
+}
+unit na_ge00 {
+name = Dmitry
+face = na_ge0
+help = Chinovnik
+}
+unit orv_ge0 {
+name = James
+face = orv_ge0
+help = Commander
+}

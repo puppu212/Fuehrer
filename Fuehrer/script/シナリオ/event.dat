@@ -1,0 +1,204 @@
+//OP - ER
+story story_p5_op
+{
+friend = stest
+if(isPlayer(p5) == 1 && yet(event_p5_op)){routine(event_p5_op)}
+
+//戦略概要
+if (isPlayer(p5) && op_p5_st == 0 && yet(op_p5_st)) {
+set(op_p5_st, 1)
+select(op_p5_st_select, 戦略概要を確認しますか？)
+if(op_p5_st_select == 1){event(op_p5_st)}
+}
+}
+
+
+//戦略概要
+event op_p5_st
+{
+playBGM(er_story1.mp3)
+volume(30)
+
+scroll(Elise)
+showSpotMark(p5)
+talk(er_ge0, ハイル！フューラーちゃん！)
+talk(Elise, あ、にゃんにゃんだ！)
+
+talk(er_ge0, マインフューラー、現下の情勢を踏まえ、$戦略概要についてご進達申し上げます！)
+
+hideSpotMark(p5)
+wait()
+
+scroll(s088)
+showSpotMark(p1)
+talk(er_ge0, 第一に、我が民族にとっての喫緊の課題は$ 東方生存権の確保です。)
+talk(er_ge0, 現在、NARVとの不可侵条約が締結されており、$付随する秘密議定書により東方地域の分割取り決めがなされております。)
+talk(er_ge0, 東方よりNARV軍の動きが想定されることから、$戦術的優位を保持するためにも、東方地域全土を速やかに制圧することを提案いたします！)
+
+hideSpotMark(p1)
+wait()
+
+scroll(Charlotte)
+showSpotMark(p2)
+talk(er_ge0, 第二に、西方地域への進攻計画についてご報告申し上げます。)
+talk(er_ge0, 現状、リゾリアは要塞線の維持に注力し、$事態の推移を見守る姿勢をとっています。)
+talk(er_ge0, この隙を突き、迂回路から奇襲攻撃を仕掛け、$敵首都の中枢を一気に掌握しましょう！)
+
+hideSpotMark(p2)
+wait()
+
+scroll(Maria)
+showSpotMark(p4)
+talk(er_ge0, 第三に、隣国カリツィアとの外交関係についてご報告いたします。)
+talk(er_ge0, 現在、カリツィアとは我々の理想とする価値観を共有しており、協力関係にあります。)
+talk(er_ge0, 一方で、我が国の軍事行動に対しては慎重な態度を示しており、直ちに全面介入する可能性は低いです。)
+talk(er_ge0, したがって、彼らの動向に過度に依存せず、$独立した行動計画を整えておくべきでしょう！)
+
+hideSpotMark(p4)
+wait()
+
+scroll(Elise)
+showSpotMark(p5)
+talk(er_ge0, なお、我が党の最終目標は$歴史の必然と我らの理念に基づく$ 民族共同体（Volksgemeinschaft）の建設にあります。)
+talk(er_ge0, 過去の屈辱と制約を克服し、$新しい秩序を我ら自身の手で築き上げましょう！)
+
+talk(Elise, （なでなで）)
+talk(er_ge0, にゃーん)
+
+event(op_p5_st_test2)
+}
+event op_p5_st_test2 {
+playWorld()
+}
+
+
+//イベント
+story stest
+{
+friend = stest
+//ワルシャワ占領
+if(inPower(p5, s088) == 1 && yet(event_p5_Warsaw)){routine(event_p5_Warsaw)}
+//パリ占領
+if(inPower(p5, s028) == 1 && yet(event_p5_Paris)){routine(event_p5_Paris)}
+//ORV援軍
+if(countSpot(p5) >= 25 && yet(event_p3_addUnit) && isComTurn() == 1){routine(event_p3_addUnit)}
+//シャルロット
+if(countSpot(p5) >= 30 && yet(event_p3_Charlotte) && yet(event_p5_Paris) == 0){routine(event_p3_Charlotte)}
+//ORV参戦
+if(countSpot(p5) >= 35 && yet(event_p6_op)){routine(event_p6_op)}
+
+//超重戦車追加
+if(countSpot(p5) >= 40 && yet(event_p5_SHT)){routine(event_p5_SHT)}
+//ゲルマニア建設, 超兵器追加
+if(countSpot(p5) >= 45 && yet(event_p5_Germania)){routine(event_p5_Germania)}
+}
+
+//ワルシャワ占領
+event event_p5_Warsaw
+{
+if(isWatching() == 0)
+{
+loopBGM(er_story1.mp3)
+volume(30)
+}
+
+dialog(ワルシャワを占領しました。 $（イベント未実装）)
+}
+
+//パリ占領
+event event_p5_Paris
+{
+scroll(s028)
+showSpotMark(p2)
+
+wait()
+
+unionPower(p5, p2)
+
+addUnit(Charlotte, p3)
+addUnit(ly_ht_ge1, p3)
+addUnit(ly_ht_ge2, p3)
+addUnit(ly_ht_ge3, p3)
+eraseUnit(ly_mt_ge1)
+eraseUnit(ly_mt_ge2)
+eraseUnit(ly_mt_ge3)
+eraseUnit(ly_mt_ge4)
+eraseUnit(ly_ar_ge1)
+eraseUnit(ly_ar_ge2)
+eraseUnit(ly_ar_ge3)
+eraseUnit(ly_ar_ge4)
+eraseUnit(ly_ca_ge1)
+eraseUnit(ly_ca_ge2)
+eraseUnit(ly_ca_ge3)
+eraseUnit(ly_ca_ge4)
+
+dialog(リゾリアが降伏しました。)
+dialog(シャルロットはアヴァロンに亡命しました。)
+}
+
+event event_p3_Charlotte
+{
+dialog(《シャルロット》$ イベント未実装)
+}
+
+//ORV援軍
+event event_p3_addUnit
+{
+
+addUnit(orv_mt_ge5, s019)
+addUnit(orv_mt_ge6, s019)
+
+wait()
+scroll(s019)
+showSpotMark(s019)
+
+dialog(ロンドンにオーヴェイン連邦軍の先遣隊が到着しました。$ （イベント未実装）)
+}
+
+
+//ORV参戦
+event event_p6_op
+{
+if(isWatching() == 0)
+{
+loopBGM(orv_world1.mp3)
+volume(80)
+}
+
+showSpot(s121)
+showSpot(s122)
+showSpot(s123)
+showSpot(s124)
+showSpot(s125)
+
+linkSpot(s018, s124, blue_route)
+linkSpot(s031, s122, blue_route)
+linkSpot(s032, s122, blue_route)
+linkSpot(s064, s121, blue_route)
+linkSpot(s114, s123, blue_route)
+linkSpot(s118, s124, blue_route)
+linkSpot(s121, s122, blue_route)
+linkSpot(s122, s123, blue_route)
+linkSpot(s122, s125, blue_route)
+linkSpot(s123, s124, blue_route)
+linkEscape(s121, s125)
+linkEscape(s123, s125)
+
+addPower(p6)
+wait()
+
+scroll(Noelle)
+showSpotMark(p6)
+
+dialog(オーヴェイン連邦が参戦しました。$ （イベント未実装）)
+}
+
+//SHT
+event event_p5_SHT {
+dialog(《超重戦車開発》$ イベント未実装)
+}
+
+//ゲルマニア
+event event_p5_Germania {
+dialog(《世界首都ゲルマニア建設、超兵器追加》$ イベント未実装)
+}

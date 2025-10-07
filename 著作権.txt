@@ -1,0 +1,267 @@
+本作品は、ななあし氏によって開発された戦略シミュレーションゲーム
+「ヴァーレントゥーガ」の拡張シナリオです。
+ヴァーレントゥーガ本体の著作権はななあし氏に帰属します。
+
+また、本作品には歴史的資料および戦争関連のシンボルが含まれます。
+一部の素材は国や地域によって取扱いが制限されている場合があります。
+
+//ソフトウェア
+GuruGuruSMF4 — Standard MIDI File loop playback DLL
+Copyright (c) 2010–2024 卯如 (Uwaki)
+All rights reserved.
+URL: https://gurugurusmf.migmig.net
+
+//フォント
+Google Fonts --------------------------------------------------------------------
+
+Licence: SIL Open Font License (OFL) version 1.1
+Deed: https://scripts.sil.org/OFL
+
+Noto Sans JP
+Source: Google Fonts
+License: SIL Open Font License (OFL) version 1.1
+URL: https://fonts.google.com/noto/specimen/Noto+Sans+JP
+
+Gutenberg Lago ------------------------------------------------------------------
+
+Licence: SIL Open Font License (OFL) version 1.1
+Deed: https://scripts.sil.org/OFL
+
+GL Star Taker  
+Designer: Gutenberg Labo  
+License: SIL Open Font License (OFL) version 1.1
+URL: https://github.com/gutenberg-labo/ 
+
+Steffmann -----------------------------------------------------------------------
+
+License: Free for commercial use
+
+English Towne  
+Designer: Dieter Steffmann
+License: Free for commercial use
+URL: http://www.steffmann.de/  
+
+//グラフィック
+Wikimedia Commons ---------------------------------------------------------------
+
+License: Attribution-ShareAlike 4.0 International
+Deed: https://creativecommons.org/licenses/by-sa/4.0/
+
+"Rückzug" (fresco at the Rathaus Schöneberg, Bürgersaal, Berlin)  
+by Franz Eichhorst (ca. 1935–1938)
+Modifications: upscaled and resized.
+License: Attribution-ShareAlike 4.0 International
+URL: https://creativecommons.org/licenses/by-sa/4.0/
+
+Berlin 1937 Unter den Linden im Festschmuck
+Photographer: Bundesarchiv
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Modifications: upscaled and resized.
+URL: https://commons.wikimedia.org/wiki/File:Berlin_1937_Unter_den_Linden_im_Festschmuck_(49977124877).jpg
+
+Bundesarchiv Bild 183-E00418, Berlin, Neue Reichskanzlei
+Photographer: Heinrich Hoffmann
+Modifications: upscaled and resized.
+License: Creative Commons Attribution-ShareAlike 3.0 Germany (CC BY-SA 3.0 DE)
+URL: https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E00418,_Berlin,_Neue_Reichskanzlei.jpg
+
+undesarchiv Bild 183-K1216-501, Berlin, Neue Reichskanzlei, Marmorgalerie
+Photographer: Heinrich Hoffmann
+Modifications: upscaled and resized.
+License: Creative Commons Attribution-ShareAlike 3.0 Germany (CC BY-SA 3.0 DE)
+URL: https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-K1216-501,_Berlin,_Neue_Reichskanzlei,_Marmorgalerie.jpg
+
+Bundesarchiv Bild 183-H26035, Berlin, Neue Reichskanzlei, Arbeitszimmer Hitlers
+Photographer: Heinrich Hoffmann
+Modifications: upscaled and resized.
+License: Creative Commons Attribution-ShareAlike 3.0 Germany (CC BY-SA 3.0 DE)
+URL: https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H26035,_Berlin,_Neue_Reichskanzlei,_Arbeitszimmer_Hitlers.jpg
+
+Versailles
+Photographer: Berit Wallenberg
+Modifications: upscaled and resized.
+License: Public domain in Sweden
+URL: https://commons.wikimedia.org/wiki/File:Versailles_-_KMB_-_16001000101908.jpg
+
+Château de Versailles, bureau du président du Congrès
+Photographer: Agence Rol
+Modifications: upscaled and resized.
+License: Public Domain Mark 1.0
+URL: https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Versailles,_bureau_du_pr%C3%A9sident_du_Congr%C3%A8s.jpg
+
+View of Tula Kremlin in the 1930s
+License: Unknown
+Modifications: upscaled and resized.
+License: Public domain in Russia
+URL: https://commons.wikimedia.org/wiki/File:View_of_Tula_Kremlin_in_the_1930s.jpg
+
+//サウンド
+Imperial War Museum (IWM) -------------------------------------------------------
+
+License: Non-Commercial licence, fair dealing licence
+URL: https://www.iwm.org.uk/collections/
+
+Die Fahne Hoch [Raise the Flag], Horst Wessel Lied
+Sound: © IWM (34678)
+Source: Imperial War Museum
+License: Non-Commercial licence
+URL: https://www.iwm.org.uk/collections/item/object/80033942
+
+Die Fahne Hoch
+Sound: © IWM (15571). The beginning of the recording, which included an archival reference spoken for cataloging purposes, has been removed. The content remains otherwise unaltered.
+Source: Imperial War Museum
+License: Non-Commercial licence
+URL: https://www.iwm.org.uk/collections/item/object/80015099
+
+Marching and Singing: Songs and Marches From Nazi Germany, 1933-1945
+Sound: © IWM (24738)
+Source: Imperial War Museum
+License: Non-Commercial licence
+URL: https://www.iwm.org.uk/collections/item/object/80023568
+
+Benito Mussolini: I Discorsi dell' Impero, 1935-1936: Inno a Roma
+Sound: © IWM (34581). The beginning of the recording, which included an archival reference spoken for cataloging purposes, has been removed. The content remains otherwise unaltered.
+Source: Imperial War Museum
+License: fair dealing licence
+URL: https://www.iwm.org.uk/collections/item/object/80033692
+
+Benito Mussolini: I Discorsi dell' Impero, 1935-1936: Marcia Reale Italiana
+Sound: © IWM (34579). The beginning of the recording, which included an archival reference spoken for cataloging purposes, has been removed. The content remains otherwise unaltered.
+Source: Imperial War Museum
+License: fair dealing licence
+URL: https://www.iwm.org.uk/collections/item/object/80033690
+
+Internet Archive (IA) -----------------------------------------------------------
+
+License: Public Domain Mark 1.0 Universal  
+Deed: https://creativecommons.org/publicdomain/mark/1.0/  
+
+Recording title: The Military Music of Adolf Hitler's Third Reich
+Performer: Various German military bands (uncredited)
+Original format: Compilation
+Source: Archive.org
+Collection: German Military Marches
+License: Public Domain Mark 1.0 Universal
+URL: https://archive.org/details/GermanMilitaryMarches/The+Military+Music+Of+Adolf+Hitler's+Third+Reich+CD+1
+
+Recording title: Tino Rossi Collection 1933–1937
+Performer: Tino Rossi
+Original: Compilation of 78rpm recordings
+Source: Archive.org
+Collection: Tino Rossi 1933–1937
+License: Public Domain Mark 1.0 Universal
+URL: https://archive.org/details/TinoRossiCollection1933-1937
+
+Recording title: Lorsque Les Etoiles (002)
+Original format: 78rpm record
+Source: Archive.org
+License: Public Domain Mark 1.0 Universal
+URL: https://archive.org/details/78rpmCollection1920s1930sPopularMusic/002+Lorsque+Les+Etoiles.m4a
+
+The Great 78 Project -----------------------------------------------------------
+URL: https://great78.archive.org/
+
+「Great 78 Project」は、Internet Archive と ARChive of Contemporary Music、George Blood, L.P. などの提携により実施されている保存プロジェクトであり、
+主に1900年代初期の 78rpm レコードをデジタル化・公開しています。
+
+これらの音源は、以下の理由から通常パブリックドメインとして扱われます：
+
+- 多くが1925年以前に録音・出版された音源であり、米国著作権法における保護期間（録音の場合最大100年）をすでに経過していること
+
+- Great 78 Projectによって公開されている多くの音源は、Public Domain Mark 1.0 または「ライセンス不明だが事実上パブリックドメイン」として扱われていること
+
+- 個別にライセンスが明記されていない場合でも、上記の理由により非商用利用・研究目的・教育利用等での自由使用が許容されていること
+
+なお、本資料に含まれる音源の多くは米国著作権法において既にパブリックドメインとされており（特に1923年以前）、
+また日本においても1955年以前の録音である場合、保護期間を経過している可能性が高いことから、一般的に利用可能と解釈されます。(2025年現在)
+利用に際しては、出典明記や編集内容の記載など、適切な帰属表示を行っています。
+
+Wikimedia Commons ---------------------------------------------------------------
+
+Public Domain (U.S. Government Work, 17 U.S.C. §105)
+
+Recording title: When Johnny Comes Marching Home
+Performer: United States Military Academy Band
+Source: Wikimedia Commons
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://commons.wikimedia.org/wiki/File:When_Johnny_Comes_Marching_Home_-_USMA_Band.ogg
+
+Wikibooks -----------------------------------------------------------------------
+
+Public Domain (U.S. Government Work, 17 U.S.C. §105)
+
+Recording title: Badonviller
+Performer: The President's Own United States Marine Band
+Modifications: beginning of the recording trimmed
+Source: Wikibooks
+URL: https://ja.m.wikibooks.org/wiki/ファイル:Badonviller_-_U.S._Marine_Band.ogg
+
+The U.S. Army Band "Pershing's Own" ---------------------------------------------
+
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+
+Recording title: Ceremonial Music Guide
+Performer: The U.S. Army Band "Pershing's Own"
+Source: U.S. Army
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://usarmyband.com/ceremonial-music-guide
+
+United States Navy Band ---------------------------------------------------------
+
+Public Domain (U.S. Government Work, 17 U.S.C. §105)
+
+Recording title: Ceremonial Music
+Performer: United States Navy Band
+Source: U.S Navy
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.navyband.navy.mil/media/ceremonial
+
+U.S. Air Force Band -------------------------------------------------------------
+
+Public Domain (U.S. Government Work, 17 U.S.C. §105)
+
+Recording title: The Ceremonial Brass,Concert Band
+Performer: U.S. Air Force Band
+Source: U.S. Air Force Band
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.music.af.mil/Multimedia/AF-Recordings/Ceremonial-Music/
+
+Recording title: Adjuant's Call, C.M.T.C. March 
+Performer: U.S. Air Force Band
+Source: U.S. Air Force Band
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.music.af.mil/Multimedia/AF-Recordings/Ceremonial-Music/
+
+Recording title: Liberty Fanfare
+Performer: U.S. Air Force Band
+Source: U.S. Air Force Band
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.music.af.mil/Multimedia/AF-Recordings/Ceremonial-Music/
+
+Recording title: Public Domain Music
+Source: U.S. Air Force Band
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.music.af.mil/Multimedia/AF-Recordings/Public-Domain-Music/
+
+
+United States Marine Band -------------------------------------------------------
+
+Public Domain (U.S. Government Work, 17 U.S.C. §105)
+Deed: 17 U.S.C. §105
+
+Recording title: Marine Corps Birthday Ball (Audio)
+Performer: United States Marine Band
+Source: U.S. Marine
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.marineband.marines.mil/Audio-Resources/Ceremonial-Music/
+
+Recording title: The Complete Marches of John Philip Sousa
+Performer: United States Marine Band
+Source: U.S. Marine
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://www.marineband.marines.mil/Audio-Resources/The-Complete-Marches-of-John-Philip-Sousa/
+
+Springin ------------------------------------------------------------------------
+
+License: Free to use for commercial and non-commercial projects. No attribution required. Redistribution and use in NFTs are prohibited.
+URL: https://www.springin.org/sound-stock/

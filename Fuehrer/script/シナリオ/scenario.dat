@@ -1,0 +1,176 @@
+scenario stest {
+sortkey = 1
+name = test
+help = @
+text = 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.;
+begin_text = プレイヤー勢力を選択してください
+
+map = world1
+locate_x = 1600
+locate_y = 1200
+
+power = p5,p4,p3,p2,p1;
+roam = @;
+
+world = @
+fight = @
+politics = @
+poli = @
+camp = none
+
+spot_capacity = 12
+war_capacity = 12
+training_up = 2
+
+enable_talent = off
+offset = @
+
+spot = 
+s001, s002, s003, s004, s005, s006, s007, s008, s009, s010, 
+s011, s012, s013, s014, s015, s016, s017, s018, s019, s020, 
+s021, s022, s023, s024, s025, s026, s027, s028, s029, s030, 
+s031, s032, s033, s034, s035, s036, s037, s038, s039, s040, 
+s041, s042, s043, s044, s045, s046, s047, s048, s049, s050, 
+s051, s052, s053, s054, s055, s056, s057, s058, s059, s060, 
+s061, s062, s063, s064, s065, s066, s067, s068, s069, s070, 
+s071, s072, s073, s074, s075, s076, s077, s078, s079, s080, 
+s081, s082, s083, s084, s085, s086, s087, s088, s089, s090, 
+s091, s092, s093, s094, s095, s096, s097, s098, s099, s100, 
+s101, s102, s103, s104, s105, s106, s107, s108, s109, s110, 
+s111, s112, s113, s114, s115, s116, s117, s118, s119, s120, 
+s121, s122, s123, s124, s125, 
+;
+
+showSpot(s001) showSpot(s002) showSpot(s003) showSpot(s004) showSpot(s005) showSpot(s006) showSpot(s007) showSpot(s008) showSpot(s009) showSpot(s010)
+showSpot(s011) showSpot(s012) showSpot(s013) showSpot(s014) showSpot(s015) showSpot(s016) showSpot(s017) showSpot(s018) showSpot(s019) showSpot(s020)
+showSpot(s021) showSpot(s022) showSpot(s023) showSpot(s024) showSpot(s025) showSpot(s026) showSpot(s027) showSpot(s028) showSpot(s029) showSpot(s030)
+showSpot(s031) showSpot(s032) showSpot(s033) showSpot(s034) showSpot(s035) showSpot(s036) showSpot(s037) showSpot(s038) showSpot(s039) showSpot(s040)
+showSpot(s041) showSpot(s042) showSpot(s043) showSpot(s044) showSpot(s045) showSpot(s046) showSpot(s047) showSpot(s048) showSpot(s049) showSpot(s050)
+showSpot(s051) showSpot(s052) showSpot(s053) showSpot(s054) showSpot(s055) showSpot(s056) showSpot(s057) showSpot(s058) showSpot(s059) showSpot(s060)
+showSpot(s061) showSpot(s062) showSpot(s063) showSpot(s064) showSpot(s065) showSpot(s066) showSpot(s067) showSpot(s068) showSpot(s069) showSpot(s070)
+showSpot(s071) showSpot(s072) showSpot(s073) showSpot(s074) showSpot(s075) showSpot(s076) showSpot(s077) showSpot(s078) showSpot(s079) showSpot(s080)
+showSpot(s081) showSpot(s082) showSpot(s083) showSpot(s084) showSpot(s085) showSpot(s086) showSpot(s087) showSpot(s088) showSpot(s089) showSpot(s090)
+showSpot(s091) showSpot(s092) showSpot(s093) showSpot(s094) showSpot(s095) showSpot(s096) showSpot(s097) showSpot(s098) showSpot(s099) showSpot(s100)
+showSpot(s101) showSpot(s102) showSpot(s103) showSpot(s104) showSpot(s105) showSpot(s106) showSpot(s107) showSpot(s108) showSpot(s109) showSpot(s110)
+showSpot(s111) showSpot(s112) showSpot(s113) showSpot(s114) showSpot(s115) showSpot(s116) showSpot(s117) showSpot(s118) showSpot(s119) showSpot(s120)
+hideSpot(s121) hideSpot(s122) hideSpot(s123) hideSpot(s124) hideSpot(s125) 
+
+linkSpot(s001, s002) linkSpot(s001, s009) linkSpot(s001, s082) linkSpot(s001, s089) linkSpot(s001, s090)
+linkSpot(s002, s003) linkSpot(s002, s054) linkSpot(s002, s067)
+linkSpot(s003, s004)
+linkSpot(s004, s005) linkSpot(s004, s068)
+linkSpot(s005, s006) linkSpot(s005, s069)
+linkSpot(s006, s007)
+linkSpot(s007, s029)
+linkSpot(s008, s007) linkSpot(s008, s078)
+linkSpot(s009, s090) linkSpot(s009, s091)
+linkSpot(s010, s015) linkSpot(s010, s016)
+linkSpot(s011, s101, blue_route)
+linkSpot(s012, s011) linkSpot(s012, s013)
+linkSpot(s013, s014)
+linkSpot(s014, s033)
+linkSpot(s015, s013)
+linkSpot(s016, s017) linkSpot(s016, s018, blue_route)
+linkSpot(s017, s107, blue_route)
+linkSpot(s018, s116, blue_route) linkSpot(s018, s118, blue_route) linkSpot(s018, s124, blue_route)
+linkSpot(s019, s020) linkSpot(s019, s022)
+linkSpot(s020, s021) linkSpot(s020, s030, blue_route)
+linkSpot(s021, s031, blue_route)
+linkSpot(s022, s023) linkSpot(s022, s025)
+linkSpot(s023, s024)
+linkSpot(s024, s027)
+linkSpot(s026, s027) linkSpot(s026, s052, blue_route)
+linkSpot(s027, s065, blue_route)
+linkSpot(s028, s029) linkSpot(s028, s030) linkSpot(s028, s033) linkSpot(s028, s068)
+linkSpot(s029, s080)
+linkSpot(s030, s032)
+linkSpot(s031, s122, blue_route)
+linkSpot(s032, s031) linkSpot(s032, s036) linkSpot(s032, s122, blue_route)
+linkSpot(s033, s034)
+linkSpot(s034, s035) linkSpot(s034, s117, blue_route)
+linkSpot(s035, s036) linkSpot(s035, s072)
+linkSpot(s036, s071, blue_route)
+linkSpot(s037, s038) linkSpot(s037, s041) linkSpot(s037, s043)
+linkSpot(s038, s039)
+linkSpot(s039, s040)
+linkSpot(s040, s062) linkSpot(s040, s100)
+linkSpot(s041, s042)
+linkSpot(s042, s098)
+linkSpot(s043, s044)
+linkSpot(s044, s045)
+linkSpot(s045, s046) linkSpot(s045, s093)
+linkSpot(s046, s047)
+linkSpot(s047, s048)
+linkSpot(s048, s049)
+linkSpot(s049, s050, blue_route)
+linkSpot(s050, s051) linkSpot(s050, s097, blue_route)
+linkSpot(s051, s045) linkSpot(s051, s095)
+linkSpot(s052, s056, blue_route) linkSpot(s052, s064, blue_route)
+linkSpot(s053, s054, blue_route) linkSpot(s053, s059, blue_route)
+linkSpot(s055, s056) linkSpot(s055, s059, blue_route)
+linkSpot(s056, s057)
+linkSpot(s057, s064, blue_route)
+linkSpot(s058, s059) linkSpot(s058, s060) linkSpot(s058, s061, blue_route) linkSpot(s058, s062, blue_route)
+linkSpot(s060, s063)
+linkSpot(s062, s063)
+linkSpot(s064, s121, blue_route)
+linkSpot(s065, s066)
+linkSpot(s067, s068)
+linkSpot(s068, s069)
+linkSpot(s069, s028)
+linkSpot(s070, s071) linkSpot(s070, s073) linkSpot(s070, s074)
+linkSpot(s071, s076)
+linkSpot(s072, s073, blue_route)
+linkSpot(s074, s114)
+linkSpot(s075, s074) linkSpot(s075, s076)
+linkSpot(s077, s078) linkSpot(s077, s079) linkSpot(s077, s084)
+linkSpot(s078, s082)
+linkSpot(s079, s011)
+linkSpot(s080, s081)
+linkSpot(s082, s083)
+linkSpot(s083, s084)
+linkSpot(s084, s085)
+linkSpot(s085, s086) linkSpot(s085, s102)
+linkSpot(s086, s091)
+linkSpot(s087, s098)
+linkSpot(s088, s089) linkSpot(s088, s090) linkSpot(s088, s091) linkSpot(s088, s092)
+linkSpot(s089, s087)
+linkSpot(s092, s042) linkSpot(s092, s093)
+linkSpot(s094, s095) linkSpot(s094, s096)
+linkSpot(s096, s097) linkSpot(s096, s105)
+linkSpot(s098, s099)
+linkSpot(s099, s100)
+linkSpot(s101, s104) linkSpot(s101, s106)
+linkSpot(s102, s103) linkSpot(s102, s104)
+linkSpot(s103, s105) linkSpot(s103, s106)
+linkSpot(s106, s107)
+linkSpot(s107, s110)
+linkSpot(s108, s110) linkSpot(s108, s113, blue_route) linkSpot(s108, s119, blue_route)
+linkSpot(s109, s105)
+linkSpot(s110, s109)
+linkSpot(s111, s097, blue_route) linkSpot(s111, s112) linkSpot(s111, s113)
+linkSpot(s114, s115, blue_route) linkSpot(s114, s123, blue_route)
+linkSpot(s115, s116, blue_route)
+linkSpot(s116, s117)
+linkSpot(s118, s119, blue_route) linkSpot(s118, s124, blue_route)
+linkSpot(s119, s120, blue_route)
+linkSpot(s121, s122, blue_route)
+linkSpot(s122, s123, blue_route) linkSpot(s122, s125, blue_route)
+linkSpot(s123, s124, blue_route)
+
+linkEscape(s001, s003)
+linkEscape(s006, s008)
+linkEscape(s013, s117)
+linkEscape(s019, s068)
+linkEscape(s021, s025)
+linkEscape(s024, s066)
+linkEscape(s033, s081)
+linkEscape(s042, s044)
+linkEscape(s043, s046)
+linkEscape(s073, s115)
+linkEscape(s079, s104)
+linkEscape(s112, s113)
+linkEscape(s121, s125)
+linkEscape(s123, s125)
+}

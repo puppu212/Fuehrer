@@ -1,0 +1,119 @@
+context {
+// 難易度
+mode_normal = blind
+mode_hard = blind, samecall
+mode_luna = blind, samecall, dead
+
+mode_easy_text = ゲームを始めます。
+
+//UI設定
+quarter_view = off
+title_name = 逆襲のフューラーちゃん！ test
+face_colorkey = (0, 0, 0)
+scenario_select1 = 80
+scenario_select2 = 20, テストシナリオ
+bold_spotlabel = on
+
+_menu = 0, 5, 255
+_heromenu = 0, 5, 255
+_commenu = 0, 5, 255
+_spot = 0, 5, 255
+_spot2 = 0, 5, 255
+_status = 0, 5, 255
+_merce = 0, 6, 255
+_war = 0, 5, 255
+_diplo = 0, 5, 255
+_powerinfo = 0, 5, 255
+_personinfo = 0, 5, 255
+_save = 0, 5, 255
+_load = 0, 5, 255
+_tool = 0, 5, 255
+_battle = 0, 5, 255
+_message = 0, 5, 255
+_name = 0, 5, 255
+_dialog = 0, 5, 255
+_help = 0, 5, 255
+_detail = 0, 5, 255
+_corps = 0, 5, 255
+_bstatus = 0, 5, 255
+_powerselect = 0, 5, 255
+_personselect = 0, 6, 255
+_scenario = 100, 5, 255
+_scenariotext = 100, 5, 255
+
+//color_green = 129, 8, 20
+bold_spotpath = 280
+
+//基本ルール
+force_fire = on
+unit_view_range = 30
+unit_castle_cram = off
+actor_per = 0
+raise_yabo_bdr = 0
+arbeit_player = off
+
+member = 8
+movement_num = 1
+employ_range = 2
+support_range = 1
+myhelp_range = 1
+battle_fast = on
+
+power_order = normal
+talent_mode = on
+npm_play = off
+default_ending = on
+picture_floor = msg
+race_suffix = @
+race_label = @
+
+gain_per = 200
+spot_capacity = 12
+war_capacity = 12
+max_unit = 1000
+dead_penalty = 25
+win_gain = 100
+training_average = 1
+leave_period = 5
+caution_adjust = 30
+notalent_down = 100
+unit_element_heal = on
+
+btl_limit = 1500
+bgl_limit_c = 1500
+btl_auto = 100
+
+neutral_max = 8
+neutral_min = 6
+neutral_member_max = 8
+neutral_member_min = 6
+
+//フォント
+font_file = NotoSansJP-Bold.ttf
+font10 = Noto Sans JP
+font14 = Noto Sans JP
+font12 = Noto Sans JP
+font16 = Noto Sans JP
+font20 = Noto Sans JP
+font_balloon = Noto Sans JP
+font_face = Noto Sans JP
+font_text = Noto Sans JP
+font_detail = Noto Sans JP
+font_prologue = Noto Sans JP
+font_title = Noto Sans JP
+font_spotlabel = Noto Sans JP
+
+//サウンド
+title_bgm = title.mp3
+world_bgm = 
+world1.mp3,world2.mp3,world3.mp3,world4.mp3,world5.mp3,world6.mp3,world7.mp3,
+world8.mp3,world9.mp3,world10.mp3,world11.mp3,world12.mp3,world13.mp3,world14.mp3,
+world15.mp3,world16.mp3,world17.mp3,world18.mp3,world19.mp3,world20.mp3,world21.mp3
+
+battle_bgm = @
+title_volume = 50
+world_volume = 30
+battle_volume = @
+sound_volume = -3500
+sound_count = 5
+}

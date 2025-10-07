@@ -1,0 +1,34 @@
+race nf
+{
+name = NEUTRAL
+}
+
+race er
+{
+name = ER
+}
+
+race car
+{
+name = CAR
+}
+
+race ava
+{
+name = AVA
+}
+
+race lys
+{
+name = LYS
+}
+
+race narv
+{
+name = NARV
+}
+
+race orv
+{
+name = ORV
+}

@@ -1,0 +1,14 @@
+Fuehrer
+
+width1000
+height600
+
+zoom100000
+zoommax1000
+zoomtick50
+
+// margin
+// testmap
+// musicoff
+skillcheckoff
+
