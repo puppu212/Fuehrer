@@ -2,7 +2,7 @@
 本作品は、ななあし氏によって開発された戦略シミュレーションゲーム  
 「ヴァーレントゥーガ」の拡張シナリオです。
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-CC%20BY--NC-lightgrey)
 
 ## ダウンロード方法
 ```markdown
