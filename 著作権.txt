@@ -44,14 +44,43 @@ URL: http://www.steffmann.de/
 //グラフィック
 Wikimedia Commons ---------------------------------------------------------------
 
-License: Attribution-ShareAlike 4.0 International
+License: 
+Creative Commons Attribution-Share Alike 4.0 International
 Deed: https://creativecommons.org/licenses/by-sa/4.0/
+
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+Deed: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+Creative Commons Attribution-ShareAlike 2.0 Generic
+Deed: https://creativecommons.org/licenses/by-sa/2.0/deed.en
+
+Public domain (official symbol, §5 UrhG - German copyright law) 
 
 "Rückzug" (fresco at the Rathaus Schöneberg, Bürgersaal, Berlin)  
 by Franz Eichhorst (ca. 1935–1938)
 Modifications: upscaled and resized.
-License: Attribution-ShareAlike 4.0 International
-URL: https://creativecommons.org/licenses/by-sa/4.0/
+License: Creative Commons Attribution-ShareAlike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:Ei15_FRANZ_EICHHORST_1885%E2%80%931948_war_painter_Rathaus_Berlin-Sch%C3%B6neberg_B%C3%BCrgersaal_fresco_1935%E2%80%9338_Nazi_propaganda_%22R%C3%BCckzug%22_Galleria.thule-italia.com_No_known_copyright_restrictions.jpg
+
+Ludwig HOHLWEIN Telegramm Schmucktelegramm Deutsche Reichspost NSDAP propaganda Reichsadler Nürnberg Decorative telegram Hitler in open car Nuremberg Castle parading SA men Cover of four page folder No known copyright restrictions.jpg
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:Ludwig_HOHLWEIN_Telegramm_Schmucktelegramm_Deutsche_Reichspost_NSDAP_propgandana_Reichsadler_N%C3%BCrnberg_Decorative_telegram_Hitler_in_open_car_Nuremberg_Castle_parading_SA_men_Cover_of_four_page_folder_No_known_copyright_restrictions.jpg
+
+John Singer Sargent – The Road – 19.759 – Museum of Fine Arts
+Source: Wikimedia Commons  
+License: Public domain (faithful reproduction of a public domain artwork)  
+URL: https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_The_Road_-_19.759_-_Museum_of_Fine_Arts.jpg
+
+John Singer Sargent – Poppies (11425224076)
+Source: Wikimedia Commons  
+License: Creative Commons Attribution 2.0 Generic (CC BY 2.0) :contentReference[oaicite:0]{index=0}  
+URL: https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Poppies_(11425224076).jpg
+
+Hans_Larwin_-_Soldat_und_Tod_-_1917
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:Hans_Larwin_-_Soldat_und_Tod_-_1917.jpg
 
 Berlin 1937 Unter den Linden im Festschmuck
 Photographer: Bundesarchiv
@@ -94,6 +123,76 @@ License: Unknown
 Modifications: upscaled and resized.
 License: Public domain in Russia
 URL: https://commons.wikimedia.org/wiki/File:View_of_Tula_Kremlin_in_the_1930s.jpg
+
+Flag of Germany (1935–1945)
+Source: Wikimedia Commons  
+License: Public domain (official symbol, §5 UrhG - German copyright law)  
+URL: https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg
+
+Standarte für die Leibstandarte SS Adolf Hitler 1940.svg
+Source: Wikimedia Commons
+License: Public domain (official symbol, §5 UrhG - German copyright law)  
+URL: https://commons.wikimedia.org/wiki/File:Standarte_f%C3%BCr_die_Leibstandarte_SS_Adolf_Hitler_1940.svg
+
+German_Cross
+Source: Wikimedia Commons  
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) :contentReference[oaicite:0]{index=0}  
+URL: https://commons.wikimedia.org/wiki/File:German_Cross.svg
+
+Reichsadler Deutsches Reich (1935–1945)
+Source: Wikimedia Commons  
+License: Public domain (official symbol, §5 UrhG - German copyright law)  
+URL: https://commons.wikimedia.org/wiki/File:Reichsadler_Deutsches_Reich_(1935%E2%80%931945)
+
+Organisationsbuch der NSDAP 1943, p.417 (SS dagger "Meine Ehre heißt Treue")
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:Organisationsbuc00nati_0_orig_0623_ORGANISATIONSBUCH_DER_NSDAP_1943_Seite_417_Schutzstaffel_SS_Die_Schutzstaffeln_der_NSDAP_(dagger_with_%22Meine_Ehre_heisst_Treue%22)_cropped_dagger%2Bskull_contrast.jpg
+
+S SS-Pz Abt 101
+Source: Wikimedia Commons
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+URL: https://commons.wikimedia.org/wiki/File:S_SS-Pz_Abt_101.jpg
+
+1. SS-Panzer-Division Leibstandarte-SS Adolf Hitler
+Source: Wikimedia Commons
+License: Public domain (official symbol, §5 UrhG - German copyright law) 
+URL: https://commons.wikimedia.org/wiki/File:1._SS-Panzer-Division_Leibstandarte-SS_Adolf_Hitler.svg
+
+SS-Panzer-Division_symbol
+Source: Wikimedia Commons
+License: Public domain (official symbol, §5 UrhG - German copyright law) 
+URL: https://commons.wikimedia.org/wiki/File:SS-Panzer-Division_symbol.svg
+
+3rd_SS_Division_Logo
+Source: Wikimedia Commons
+License: Public domain (official symbol, §5 UrhG - German copyright law) 
+URL: https://commons.wikimedia.org/wiki/File:3rd_SS_Division_Logo.svg
+
+Emblem_of_Italian_Blackshirts
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:Emblem_of_Italian_Blackshirts.svg
+
+1a_Divisione_CC.NN._23_Marzo
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:1a_Divisione_CC.NN._23_Marzo.png
+
+2a_Divisione_CC.NN._28_Ottobre
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:2a_Divisione_CC.NN._28_Ottobre.png
+
+3a_Divisione_CC.NN._21_Aprile
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:3a_Divisione_CC.NN._21_Aprile.png
+
+4a_Divisione_CC.NN._3_Gennaio
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 4.0 International
+URL: https://commons.wikimedia.org/wiki/File:4a_Divisione_CC.NN._3_Gennaio.png
 
 //サウンド
 Imperial War Museum (IWM) -------------------------------------------------------
@@ -178,7 +277,32 @@ URL: https://great78.archive.org/
 
 Wikimedia Commons ---------------------------------------------------------------
 
-Public Domain (U.S. Government Work, 17 U.S.C. §105)
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+
+Horst Wessel-Lied Instrumental
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:Horst_Wessel-Lied_Instrumental.mp3
+
+Песня Хорста Весселя
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%81%D0%BD%D1%8F_%D0%A5%D0%BE%D1%80%D1%81%D1%82%D0%B0_%D0%92%D0%B5%D1%81%D1%81%D0%B5%D0%BB%D1%8F.ogg?uselang=ja
+
+Giovinezza (instrumental)
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:Giovinezza_(instrumental).ogg
+
+Giovinezza
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:Giovinezza.ogg
+
+Svyaschennaya_Voyna_vocal
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:Svyaschennaya_Voyna_vocal.ogg
 
 Recording title: When Johnny Comes Marching Home
 Performer: United States Military Academy Band
@@ -188,12 +312,13 @@ URL: https://commons.wikimedia.org/wiki/File:When_Johnny_Comes_Marching_Home_-_U
 
 Wikibooks -----------------------------------------------------------------------
 
-Public Domain (U.S. Government Work, 17 U.S.C. §105)
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 
 Recording title: Badonviller
 Performer: The President's Own United States Marine Band
 Modifications: beginning of the recording trimmed
 Source: Wikibooks
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 URL: https://ja.m.wikibooks.org/wiki/ファイル:Badonviller_-_U.S._Marine_Band.ogg
 
 The U.S. Army Band "Pershing's Own" ---------------------------------------------
@@ -208,7 +333,7 @@ URL: https://usarmyband.com/ceremonial-music-guide
 
 United States Navy Band ---------------------------------------------------------
 
-Public Domain (U.S. Government Work, 17 U.S.C. §105)
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 
 Recording title: Ceremonial Music
 Performer: United States Navy Band
@@ -218,7 +343,7 @@ URL: https://www.navyband.navy.mil/media/ceremonial
 
 U.S. Air Force Band -------------------------------------------------------------
 
-Public Domain (U.S. Government Work, 17 U.S.C. §105)
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 
 Recording title: The Ceremonial Brass,Concert Band
 Performer: U.S. Air Force Band
@@ -246,8 +371,7 @@ URL: https://www.music.af.mil/Multimedia/AF-Recordings/Public-Domain-Music/
 
 United States Marine Band -------------------------------------------------------
 
-Public Domain (U.S. Government Work, 17 U.S.C. §105)
-Deed: 17 U.S.C. §105
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 
 Recording title: Marine Corps Birthday Ball (Audio)
 Performer: United States Marine Band

@@ -49,7 +49,7 @@ sortkey = 3
 }
 unit er_ss3 : er_ss1
 {
-name = 3.SS 'Germania'
+name = 3.SS 'Totenkopf'
 face = SS.png
 sortkey = 4
 }
@@ -102,6 +102,29 @@ class = er_mt1
 member = er_mt1 * 7
 
 sortkey = 9
+}
+
+//í¥èdêÌé‘
+unit er_sht_ge1 : base
+{
+name = Schwere SS-Panzer-Abteilung 501
+face = SS.png
+same_call = on
+image = er_sht1
+race = er
+sex = male
+finance = 0
+
+skill = ta_tr1,ta_gu1,ta_re1,ls_attack2,ls_speed2,ls_t2
+
+staff = er,er_sht1,er_ht1,er_mt1
+friend = er,er_sht1,er_ht1,er_mt1
+merce = er_sht1,er_ht1,er_mt1
+class = er_sht1
+member = er_sht1 * 7
+
+talent = on
+sortkey = 100
 }
 
 //é©ëññC
@@ -241,7 +264,7 @@ sortkey = 4
 unit car_ccnn1 : base
 {
 name = 1a CC.NN. '23 Marzo'
-face = CCNN1.png
+face = CCNN.png
 same_call = on
 image = ar_mt1
 race = car

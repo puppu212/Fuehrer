@@ -363,6 +363,29 @@ skill = ta_gu1,ta_re1,ta_tr1,ta_de2
 }
 
 
+//’´díÔ
+class er_sht1 : er_ht1 {
+race = er
+name = ’´díÔ
+image = er_sht1
+fkey = htank
+
+price = 3000
+
+hp = 10000
+mp = 300
+attack = 400
+defense = 500
+magic = 20
+magdef = 0
+speed = 20
+dext = 40
+move = 40
+hprec = 0
+mprec = 0
+}
+
+
 //©‘––C
 class ne_ar1 : base
 {
