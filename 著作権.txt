@@ -11,6 +11,12 @@ Copyright (c) 2010–2024 卯如 (Uwaki)
 All rights reserved.
 URL: https://gurugurusmf.migmig.net
 
+DirectX End-User Runtime (June 2010)
+Copyright (c) 2010 Microsoft Corporation. All rights reserved.
+URL: https://www.microsoft.com/en-us/download/details.aspx?id=35
+Note: 本作品では d3dx9_35.dll を含む DirectX の DLL を直接配布していません。
+DLL は Microsoft の公式インストーラーを通じてユーザー自身にインストールしていただく必要があります。
+
 //フォント
 Google Fonts --------------------------------------------------------------------
 
@@ -389,3 +395,7 @@ Springin -----------------------------------------------------------------------
 
 License: Free to use for commercial and non-commercial projects. No attribution required. Redistribution and use in NFTs are prohibited.
 URL: https://www.springin.org/sound-stock/
+
+音人 ----------------------------------------------------------------------------
+License: Free for personal, circle, school, and volunteer use. Commercial or business use requires prior contact.
+URL: https://on-jin.com/sound/sen.php

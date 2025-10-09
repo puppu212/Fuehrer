@@ -352,7 +352,7 @@ merce = ar_ca1
 class = ar_ca1
 member = ar_ca1 * 7
 
-skill = ca_su1,ca_de1,ls_dext,ls_move,ls_t1
+skill = ca_su1,ca_de2,ls_dext,ls_move,ls_t1
 
 talent = on
 sortkey = 13
@@ -524,7 +524,7 @@ merce = av_ca1
 class = av_ca1
 member = av_ca1 * 7
 
-skill = ca_su1,ca_de1,ls_mp,ls_defense,ls_t1
+skill = ca_su1,ca_de3,ls_mp,ls_defense,ls_t1
 
 talent = on
 sortkey = 14
@@ -551,7 +551,7 @@ merce = av_mt1,av_ar1,av_ca1
 class = av_ca1
 member = av_ca1 * 7
 
-skill = ca_su1,ca_de1,ls_mp2,ls_defense2,ls_t2
+skill = ca_su1,ca_de3,ls_mp2,ls_defense2,ls_t2
 
 sortkey = 16
 }
@@ -712,7 +712,7 @@ merce = lys,ly_ca1
 class = ly_ca1
 member = ly_ca1 * 7
 
-skill = ca_su1,ca_de1,ls_hp,ls_t1
+skill = ca_su1,ca_de4,ls_hp,ls_t1
 
 talent = on
 sortkey = 13
