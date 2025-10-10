@@ -180,7 +180,7 @@ member = er_mt3 * 7
 class ar_mt1 : ne_mt1 {
 race = car
 name = ’†íÔ
-image = ar_mt1
+image = car_mt1
 fkey = mtank
 
 change = car_mt2 * 15
@@ -198,7 +198,7 @@ move = 130
 hprec = 0
 mprec = 0
 }
-class car_mt2 : car_mt1
+class car_mt2 : ar_mt1
 {
 name = ’†íÔ‡U
 level = 15
@@ -208,7 +208,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = car_mt,car_mt2up
 member = car_mt2 * 7
 }
-class car_mt3 : car_mt1
+class car_mt3 : ar_mt1
 {
 name = ’†íÔ‡V
 level = 30
@@ -222,7 +222,7 @@ member = car_mt3 * 7
 class av_mt1 : ne_mt1 {
 race = ava
 name = ’†íÔ
-image = av_mt1
+image = ava_mt1
 fkey = mtank
 
 change = ava_mt2 * 15
@@ -240,7 +240,7 @@ move = 110
 hprec = 0
 mprec = 0
 }
-class ava_mt2 : ava_mt1
+class ava_mt2 : av_mt1
 {
 name = ’†íÔ‡U
 level = 15
@@ -250,7 +250,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = ava_mt,ava_mt2up
 member = ava_mt2 * 7
 }
-class ava_mt3 : ava_mt1
+class ava_mt3 : av_mt1
 {
 name = ’†íÔ‡V
 level = 30
@@ -264,11 +264,11 @@ member = ava_mt3 * 7
 class ly_mt1 : ne_mt1 {
 race = lys
 name = ’†íÔ
-image = ly_mt1
+image = lys_mt1
 fkey = mtank
 
 change = lys_mt2 * 15
-merce = lys_mt1
+merce = ly_mt1
 
 hp = 2700
 mp = 100
@@ -282,7 +282,7 @@ move = 110
 hprec = 0
 mprec = 0
 }
-class lys_mt2 : lys_mt1
+class lys_mt2 : ly_mt1
 {
 name = ’†íÔ‡U
 level = 15
@@ -292,7 +292,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = lys_mt,lys_mt2up
 member = lys_mt2 * 7
 }
-class lys_mt3 : lys_mt1
+class lys_mt3 : ly_mt1
 {
 name = ’†íÔ‡V
 level = 30
@@ -306,7 +306,7 @@ member = lys_mt3 * 7
 class na_mt1 : ne_mt1 {
 race = narv
 name = ’†íÔ
-image = na_mt1
+image = narv_mt1
 fkey = mtank
 
 change = narv_mt2 * 15
@@ -326,7 +326,7 @@ mprec = 0
 
 skill = ta_tr1,ta_gu1,ta_re1,ta_de1
 }
-class narv_mt2 : narv_mt1
+class narv_mt2 : na_mt1
 {
 name = ’†íÔ‡U
 level = 15
@@ -336,7 +336,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = narv_mt,narv_mt2up
 member = narv_mt2 * 7
 }
-class narv_mt3 : narv_mt1
+class narv_mt3 : na_mt1
 {
 name = ’†íÔ‡V
 level = 30
@@ -439,7 +439,7 @@ member = er_ht3 * 7
 class ar_ht1 : er_ht1 {
 race = car
 name = díÔ
-image = ar_ht1
+image = car_ht1
 fkey = htank
 
 change = car_ht2 * 15
@@ -458,7 +458,7 @@ move = 110
 hprec = 0
 mprec = 0
 }
-class car_ht2 : car_ht1
+class car_ht2 : ar_ht1
 {
 name = díÔ‡U
 level = 15
@@ -468,7 +468,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = car_ht,car_ht2up
 member = car_ht2 * 7
 }
-class car_ht3 : car_ht1
+class car_ht3 : ar_ht1
 {
 name = díÔ‡V
 level = 30
@@ -482,7 +482,7 @@ member = car_ht3 * 7
 class av_ht1 : er_ht1 {
 race = ava
 name = díÔ
-image = av_ht1
+image = ava_ht1
 fkey = htank
 
 change = ava_ht2 * 15
@@ -501,7 +501,7 @@ move = 90
 hprec = 0
 mprec = 0
 }
-class ava_ht2 : ava_ht1
+class ava_ht2 : av_ht1
 {
 name = díÔ‡U
 level = 15
@@ -511,7 +511,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = ava_ht,ava_ht2up
 member = ava_ht2 * 7
 }
-class ava_ht3 : ava_ht1
+class ava_ht3 : av_ht1
 {
 name = díÔ‡V
 level = 30
@@ -525,11 +525,11 @@ member = ava_ht3 * 7
 class ly_ht1 : er_ht1 {
 race = lys
 name = díÔ
-image = ly_ht1
+image = lys_ht1
 fkey = htank
 
 change = lys_ht2 * 15
-merce = lys_ht1
+merce = ly_ht1
 price = 1000
 
 hp = 3200
@@ -544,7 +544,7 @@ move = 110
 hprec = 0
 mprec = 0
 }
-class lys_ht2 : lys_ht1
+class lys_ht2 : ly_ht1
 {
 name = díÔ‡U
 level = 15
@@ -554,7 +554,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = lys_ht,lys_ht2up
 member = lys_ht2 * 7
 }
-class lys_ht3 : lys_ht1
+class lys_ht3 : ly_ht1
 {
 name = díÔ‡V
 level = 30
@@ -568,7 +568,7 @@ member = lys_ht3 * 7
 class na_ht1 : er_ht1 {
 race = narv
 name = díÔ
-image = na_ht1
+image = narv_ht1
 fkey = htank
 
 change = narv_ht2 * 15
@@ -589,7 +589,7 @@ mprec = 0
 
 skill = ta_gu1,ta_re1,ta_tr1,ta_de1
 }
-class narv_ht2 : narv_ht1
+class narv_ht2 : na_ht1
 {
 name = díÔ‡U
 level = 15
@@ -599,7 +599,7 @@ skill = ta_tr1,ta_gu1,ta_re1
 merce = narv_ht,narv_ht2up
 member = narv_ht2 * 7
 }
-class narv_ht3 : narv_ht1
+class narv_ht3 : na_ht1
 {
 name = díÔ‡V
 level = 30
@@ -810,7 +810,7 @@ member = er_ar3 * 7
 class ar_ar1 : ne_ar1 {
 race = car
 name = ©‘––C
-image = ar_ar1
+image = car_ar1
 
 hp = 800
 attack = 130
@@ -822,7 +822,7 @@ move = 90
 hprec = 0
 mprec = 0
 }
-class car_ar2 : car_ar1
+class car_ar2 : ar_ar1
 {
 name = ©‘––C‡U
 level = 15
@@ -832,7 +832,7 @@ skill = ar_hi2
 merce = car_ar1,car_ar2up
 member = car_ar2 * 7
 }
-class car_ar3 : car_ar1
+class car_ar3 : ar_ar1
 {
 name = ©‘––C‡V
 level = 30
@@ -846,7 +846,7 @@ member = car_ar3 * 7
 class av_ar1 : ne_ar1 {
 race = ava
 name = ©‘––C
-image = av_ar1
+image = ava_ar1
 
 change = ava_ar2 * 15
 merce = av_ar1
@@ -861,7 +861,7 @@ move = 80
 hprec = 0
 mprec = 0
 }
-class ava_ar2 : ava_ar1
+class ava_ar2 : av_ar1
 {
 name = ©‘––C‡U
 level = 15
@@ -871,7 +871,7 @@ skill = ar_hi2
 merce = ava_ar1,ava_ar2up
 member = ava_ar2 * 7
 }
-class ava_ar3 : ava_ar1
+class ava_ar3 : av_ar1
 {
 name = ©‘––C‡V
 level = 30
@@ -885,10 +885,10 @@ member = ava_ar3 * 7
 class ly_ar1 : ne_ar1 {
 race = lys
 name = ©‘––C
-image = ly_ar1
+image = lys_ar1
 
 change = lys_ar2 * 15
-merce = lys_ar1
+merce = ly_ar1
 
 hp = 800
 attack = 130
@@ -900,7 +900,7 @@ move = 90
 hprec = 0
 mprec = 0
 }
-class lys_ar2 : lys_ar1
+class lys_ar2 : ly_ar1
 {
 name = ©‘––C‡U
 level = 15
@@ -910,7 +910,7 @@ skill = ar_hi2
 merce = lys_ar1,lys_ar2up
 member = lys_ar2 * 7
 }
-class lys_ar3 : lys_ar1
+class lys_ar3 : ly_ar1
 {
 name = ©‘––C‡V
 level = 30
@@ -924,7 +924,7 @@ member = lys_ar3 * 7
 class na_ar1 : ne_ar1 {
 race = narv
 name = ©‘––C
-image = na_ar1
+image = narv_ar1
 
 change = narv_ar2 * 15
 merce = narv_ar1
@@ -939,7 +939,7 @@ move = 80
 hprec = 0
 mprec = 0
 }
-class narv_ar2 : narv_ar1
+class narv_ar2 : na_ar1
 {
 name = ©‘––C‡U
 level = 15
@@ -949,7 +949,7 @@ skill = ar_hi2
 merce = narv_ar1,narv_ar2up
 member = narv_ar2 * 7
 }
-class narv_ar3 : narv_ar1
+class narv_ar3 : na_ar1
 {
 name = ©‘––C‡V
 level = 30
@@ -1126,7 +1126,7 @@ member = er_ca3 * 7
 class ar_ca1 : ne_ca1 {
 race = car
 name = •ºˆõ—A‘—Ô
-image = ar_ca1
+image = car_ca1
 skill = ca_de2,ca_su1
 
 change = car_ca2 * 15
@@ -1145,7 +1145,7 @@ summon_max = 5
 hprec = 0
 mprec = 2
 }
-class car_ca2 : car_ca1
+class car_ca2 : ar_ca1
 {
 name = •ºˆõ—A‘—Ô‡U
 level = 15
@@ -1156,7 +1156,7 @@ skill = ca_de0,ca_su1
 merce = car_ca1,car_ca2up
 member = catholica2 * 7
 }
-class car_ca3 : car_ca1
+class car_ca3 : ar_ca1
 {
 name = •ºˆõ—A‘—Ô‡V
 level = 30
@@ -1172,7 +1172,7 @@ member = car_ca3 * 7
 class av_ca1 : ne_ca1 {
 race = ava
 name = •ºˆõ—A‘—Ô
-image = av_ca1
+image = ava_ca1
 skill = ca_de3,ca_su1
 
 change = ava_ca2 * 15
@@ -1192,7 +1192,7 @@ summon_max = 5
 hprec = 0
 mprec = 1
 }
-class ava_ca2 : ava_ca1
+class ava_ca2 : av_ca1
 {
 name = •ºˆõ—A‘—Ô‡U
 level = 15
@@ -1203,7 +1203,7 @@ skill = ca_de0,ca_su1
 merce = ava_ca1,ava_ca2up
 member = catholica2 * 7
 }
-class ava_ca3 : ava_ca1
+class ava_ca3 : av_ca1
 {
 name = •ºˆõ—A‘—Ô‡V
 level = 30
@@ -1219,11 +1219,11 @@ member = ava_ca3 * 7
 class ly_ca1 : ne_ca1 {
 race = lys
 name = •ºˆõ—A‘—Ô
-image = ly_ca1
+image = lys_ca1
 skill = ca_de4,ca_su1
 
 change = lys_ca2 * 15
-merce = lys_ca1
+merce = ly_ca1
 
 hp = 400
 mp = 100
@@ -1238,7 +1238,7 @@ summon_max = 5
 hprec = 0
 mprec = 1
 }
-class lys_ca2 : lys_ca1
+class lys_ca2 : ly_ca1
 {
 name = •ºˆõ—A‘—Ô‡U
 level = 15
@@ -1249,7 +1249,7 @@ skill = ca_de0,ca_su1
 merce = lys_ca1,lys_ca2up
 member = catholica2 * 7
 }
-class lys_ca3 : lys_ca1
+class lys_ca3 : ly_ca1
 {
 name = •ºˆõ—A‘—Ô‡V
 level = 30
@@ -1265,7 +1265,7 @@ member = lys_ca3 * 7
 class na_ca1 : narv_ca1 {
 race = narv
 name = •ºˆõ—A‘—Ô
-image = na_ca1
+image = narv_ca1
 skill = ca_de5,ca_su1
 
 change = narv_ca2 * 15
@@ -1284,7 +1284,7 @@ summon_max = 6
 hprec = 0
 mprec = 1
 }
-class narv_ca2 : narv_ca1
+class narv_ca2 : na_ca1
 {
 name = •ºˆõ—A‘—Ô‡U
 level = 15
@@ -1295,7 +1295,7 @@ skill = ca_de0,ca_su1
 merce = narv_ca1,narv_ca2up
 member = catholica2 * 7
 }
-class narv_ca3 : narv_ca1
+class narv_ca3 : na_ca1
 {
 name = •ºˆõ—A‘—Ô‡V
 level = 30
@@ -1357,7 +1357,7 @@ member = orv_ca3 * 7
 //•à•º
 class ne_summon : base
 {
-race = nf
+race = ne
 name = ƒEƒTƒM‚³‚ñ
 image = ne_in1
 fkey = infantry
@@ -1426,7 +1426,7 @@ class ar_summon : ne_summon
 {
 race = car
 name = ƒIƒIƒJƒ~‚³‚ñ
-image = ar_in1
+image = car_in1
 
 no_cover = on
 no_regular = on
@@ -1448,7 +1448,7 @@ class av_summon : ne_summon
 {
 race = ava
 name = ƒ‰ƒCƒIƒ“‚³‚ñ
-image = av_in1
+image = ava_in1
 
 no_cover = on
 no_regular = on
@@ -1470,7 +1470,7 @@ class ly_summon : ne_summon
 {
 race = lys
 name = ƒjƒƒgƒŠ‚³‚ñ
-image = ly_in1
+image = lys_in1
 
 no_cover = on
 no_regular = on
@@ -1492,7 +1492,7 @@ class na_summon : ne_summon
 {
 race = narv
 name = ƒNƒ}‚³‚ñ
-image = na_in1
+image = narv_in1
 
 no_cover = on
 no_regular = on
@@ -1557,32 +1557,32 @@ change = car_mt3up * 30
 class car_mt3up : car_mt3
 {
 }
-class ava_mt2up : car_mt2
+class ava_mt2up : ava_mt2
 {
 change = ava_mt3up * 30
 }
 class ava_mt3up : ava_mt3
 {
 }
-class lys_mt2up : car_mt2
+class lys_mt2up : lys_mt2
 {
 change = lys_mt3up * 30
 }
-class lys_mt3up : ava_mt3
+class lys_mt3up : lys_mt3
 {
 }
-class narv_mt2up : car_mt2
+class narv_mt2up : narv_mt2
 {
 change = narv_mt3up * 30
 }
-class narv_mt3up : ava_mt3
+class narv_mt3up : narv_mt3
 {
 }
-class orv_mt2up : car_mt2
+class orv_mt2up : orv_mt2
 {
 change = orv_mt3up * 30
 }
-class orv_mt3up : ava_mt3
+class orv_mt3up : orv_mt3
 {
 }
 
@@ -1608,32 +1608,32 @@ change = car_ht3up * 30
 class car_ht3up : car_ht3
 {
 }
-class ava_ht2up : car_ht2
+class ava_ht2up : ava_ht2
 {
 change = ava_ht3up * 30
 }
 class ava_ht3up : ava_ht3
 {
 }
-class lys_ht2up : car_ht2
+class lys_ht2up : lys_ht2
 {
 change = lys_ht3up * 30
 }
-class lys_ht3up : ava_ht3
+class lys_ht3up : lys_ht3
 {
 }
-class narv_ht2up : car_ht2
+class narv_ht2up : narv_ht2
 {
 change = narv_ht3up * 30
 }
-class narv_ht3up : ava_ht3
+class narv_ht3up : narv_ht3
 {
 }
-class orv_ht2up : car_ht2
+class orv_ht2up : orv_ht2
 {
 change = orv_ht3up * 30
 }
-class orv_ht3up : ava_ht3
+class orv_ht3up : orv_ht3
 {
 }
 
@@ -1672,25 +1672,25 @@ change = ava_ar3up * 30
 class ava_ar3up : ava_ar3
 {
 }
-class lys_ar2up : car_ar2
+class lys_ar2up : lys_ar2
 {
 change = lys_ar3up * 30
 }
-class lys_ar3up : ava_ar3
+class lys_ar3up : lys_ar3
 {
 }
-class narv_ar2up : car_ar2
+class narv_ar2up : narv_ar2
 {
 change = narv_ar3up * 30
 }
-class narv_ar3up : ava_ar3
+class narv_ar3up : narv_ar3
 {
 }
-class orv_ar2up : car_ar2
+class orv_ar2up : orv_ar2
 {
 change = orv_ar3up * 30
 }
-class orv_ar3up : ava_ar3
+class orv_ar3up : orv_ar3
 {
 }
 
@@ -1716,31 +1716,31 @@ change = car_ca3up * 30
 class car_ca3up : car_ca3
 {
 }
-class ava_ca2up : car_ca2
+class ava_ca2up : ava_ca2
 {
 change = ava_ca3up * 30
 }
 class ava_ca3up : ava_ca3
 {
 }
-class lys_ca2up : ca_ca2
+class lys_ca2up : lys_ca2
 {
 change = lys_ca3up * 30
 }
-class lys_ca3up : ava_ca3
+class lys_ca3up : lys_ca3
 {
 }
-class narv_ca2up : ca_ca2
+class narv_ca2up : narv_ca2
 {
 change = narv_ca3up * 30
 }
-class narv_ca3up : ava_ca3
+class narv_ca3up : narv_ca3
 {
 }
-class orv_ca2up : ca_ca2
+class orv_ca2up : orv_ca2
 {
 change = orv_ca3up * 30
 }
-class orv_ca3up : ava_ca3
+class orv_ca3up : orv_ca3
 {
 }

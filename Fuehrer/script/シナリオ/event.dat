@@ -83,7 +83,7 @@ if(inPower(p5, s088) == 1 && yet(event_p5_Warsaw)){routine(event_p5_Warsaw)}
 if(inPower(p5, s028) == 1 && yet(event_p5_Paris)){routine(event_p5_Paris)}
 
 //ORV援軍
-if(countSpot(p5) >= 25 && yet(event_p3_addUnit) && isComTurn() == 1){routine(event_p3_addUnit)}
+if(countSpot(p5) >= 25 && yet(event_p3_addUnit)){routine(event_p3_addUnit)}
 //ORV参戦
 if(countSpot(p5) >= 35 && yet(event_p6_op)){routine(event_p6_op)}
 
@@ -95,7 +95,7 @@ if(countSpot(p5) >= 45 && yet(event_p5_Germania)){routine(event_p5_Germania)}
 //CCNN
 if(getTurn() == 2 && yet(event_p2_CCNN)){routine(event_p2_CCNN)}
 //シャルロット
-if(getTurn() == 4 && yet(event_p3_Charlotte) && yet(event_p5_Paris) == 0  && isComTurn() == 1){routine(event_p3_Charlotte)}
+if(getTurn() == 4 && yet(event_p3_Charlotte) && yet(event_p5_Paris) == 0){routine(event_p3_Charlotte)}
 //国家防衛委員会
 if(getTurn() == 6 && yet(event_p1_GKO)){routine(event_p1_GKO)}
 //パンジャンドラム
@@ -273,7 +273,7 @@ scroll(s037)
 showSpotMark(p1)
 wait()
 
-dialog(《国家防衛委員会、カチューシャ追加》$ イベント未実装)
+dialog(《国家防衛委員会》$ イベント未実装)
 }
 
 //パンジャンドラム
@@ -283,5 +283,5 @@ scroll(s019)
 showSpotMark(s019)
 wait()
 
-dialog(《パンジャンドラム、 スキル追加》$ イベント未実装)
+dialog(《パンジャンドラム》$ イベント未実装)
 }

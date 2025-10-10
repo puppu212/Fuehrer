@@ -210,7 +210,7 @@ unit Maria : base
 name = Maria
 face = Maria.png
 same_call = on
-image = ar_ht1
+image = car_ht1
 race = car
 sex = female
 help = La Duce
@@ -234,7 +234,7 @@ unit car_ht_ge1 : Maria
 {
 name = 131a Divisione 'Centauro'
 face = car_ge0.png
-image = ar_ht1
+image = car_ht1
 sex = male
 finance = 0
 
@@ -266,7 +266,7 @@ unit car_ccnn1 : base
 name = 1a CC.NN. '23 Marzo'
 face = CCNN.png
 same_call = on
-image = ar_mt1
+image = car_mt1
 race = car
 sex = male
 finance = 0
@@ -303,13 +303,13 @@ unit car_ar_ge1 : base {
 name = 1a Divisione di Artiglieria
 face = car_ge0.png
 same_call = on
-image = ar_ar1
+image = car_ar1
 race = car
 sex = male
 finance = 0
 
-staff = car,ar_ca1
-friend = car,ar_ca1
+staff = car,ar_ar1
+friend = car,ar_ar1
 merce = ar_ar1
 class = ar_ar1
 member = ar_ar1 * 7
@@ -341,7 +341,7 @@ unit car_ca_ge1 : base
 name = 101a Divisione 'Trieste'
 face = car_ge0.png
 same_call = on
-image = ar_ca1
+image = car_ca1
 race = car
 sex = male
 finance = 0
@@ -380,7 +380,7 @@ unit Rachel : base
 name = Rachel
 face = Rachel.png
 same_call = on
-image = av_ht1
+image = ava_ht1
 race = ava
 sex = female
 help = Prime Minister
@@ -404,8 +404,8 @@ bgm = @
 unit av_ht_ge1 : Rachel
 {
 name = 21th Army Tank Brigade
-face = av_ge0.png
-image = av_ht1
+face = ava_ge0.png
+image = ava_ht1
 sex = male
 finance = 0
 
@@ -435,9 +435,9 @@ sortkey = 4
 unit av_mt_ge1 : base
 {
 name = 1st Armoured Division
-face = av_ge0.png
+face = ava_ge0.png
 same_call = on
-image = av_mt1
+image = ava_mt1
 race = ava
 sex = male
 finance = 0
@@ -473,9 +473,9 @@ sortkey = 9
 unit av_ar_ge1 : base
 {
 name = 50rd Artillery Division
-face = av_ge0.png
+face = ava_ge0.png
 same_call = on
-image = av_ar1
+image = ava_ar1
 race = ava
 sex = male
 finance = 0
@@ -511,9 +511,9 @@ sortkey = 13
 unit av_ca_ge1 : base
 {
 name = 1st London Motonised Division
-face = av_ge0.png
+face = ava_ge0.png
 same_call = on
-image = av_ca1
+image = ava_ca1
 race = ava
 sex = male
 finance = 0
@@ -538,9 +538,9 @@ sortkey = 15
 unit av_ca_ge3 : av_ca_ge1
 {
 name = Gibraltar Command
-face = av_ge0.png
+face = ava_ge0.png
 same_call = on
-image = av_ca1
+image = ava_ca1
 race = ava
 sex = male
 finance = 0
@@ -568,7 +568,7 @@ unit Charlotte : base
 name = Charlotte
 face = Charlotte.png
 same_call = on
-image = ly_ht1
+image = lys_ht1
 race = lys
 sex = female
 help = Presidente
@@ -592,8 +592,8 @@ bgm = @
 unit ly_ht_ge1 : Charlotte
 {
 name = 501e Rgt. de Chars de Combat
-face = ly_ge0.png
-image = ly_ht1
+face = lys_ge0.png
+image = lys_ht1
 sex = male
 finance = 0
 
@@ -623,16 +623,16 @@ sortkey = 4
 unit ly_mt_ge1 : base
 {
 name = 1ere Legere Mecanique
-face = ly_ge0.png
+face = lys_ge0.png
 same_call = on
-image = ly_mt1
+image = lys_mt1
 race = lys
 sex = male
 finance = 0
 
 staff = lys,ly_mt1
 friend = lys,ly_mt1
-merce = lys_mt1
+merce = ly_mt1
 class = ly_mt1
 member = ly_mt1 * 7
 
@@ -661,16 +661,16 @@ sortkey = 8
 unit ly_ar_ge1 : base
 {
 name = 1ere Division dÅfArtillerie
-face = ly_ge0.png
+face = lys_ge0.png
 same_call = on
-image = ly_ar1
+image = lys_ar1
 race = lys
 sex = male
 finance = 0
 
 staff = lys,ly_ar1
 friend = lys,ly_ar1
-merce = lys,ly_ar1
+merce = ly_ar1
 class = ly_ar1
 member = ly_ar1 * 7
 
@@ -699,16 +699,16 @@ sortkey = 12
 unit ly_ca_ge1 : base
 {
 name = 1ere Brigade Cuirassee
-face = ly_ge0.png
+face = lys_ge0.png
 same_call = on
-image = ly_ca1
+image = lys_ca1
 race = lys
 sex = male
 finance = 0
 
 staff = lys,ly_ca1
 friend = lys,ly_ca1
-merce = lys,ly_ca1
+merce = ly_ca1
 class = ly_ca1
 member = ly_ca1 * 7
 
@@ -740,7 +740,7 @@ unit Sofiya : base
 name = Sofiya
 face = Sofiya.png
 same_call = on
-image = na_ht1
+image = narv_ht1
 race = narv
 sex = female
 help = Generalniy Sekretar
@@ -766,7 +766,7 @@ unit na_ht_ge1 : Sofiya
 {
 name = 15ya NKVD  Diviziya
 face = NKVD.png
-image = na_ht1
+image = narv_ht1
 sex = male
 finance = 0
 
@@ -796,9 +796,9 @@ sortkey = 4
 unit na_mt_ge1 : base
 {
 name = 1ya NKVD Diviziya
-face = na_ge0.png
+face = narv_ge0.png
 same_call = on
-image = na_mt1
+image = narv_mt1
 race = narv
 sex = male
 finance = 0
@@ -830,13 +830,13 @@ name = 4ya NKVD Diviziya
 sortkey = 8
 }
 
-//ñCï∫
+//é©ëññC
 unit na_ar_ge1 : base
 {
 name = 11ya NKVD Diviziya
-face = na_ge0.png
+face = narv_ge0.png
 same_call = on
-image = na_ar1
+image = narv_ar1
 race = narv
 sex = male
 finance = 0
@@ -872,9 +872,9 @@ sortkey = 12
 unit na_ca_ge1 : base
 {
 name = 101ya Motostrelkovaya
-face = na_ge0.png
+face = narv_ge0.png
 same_call = on
-image = na_ca1
+image = narv_ca1
 race = narv
 sex = male
 finance = 0
@@ -1013,7 +1013,7 @@ name = 9th 'Sunset' Division
 sortkey = 18
 }
 
-//ñCï∫
+//é©ëññC
 unit orv_ar_ge1 : base
 {
 name = 31th 'Red Arrow' Division
@@ -1101,24 +1101,24 @@ name = Tiziano
 face = car_ge0
 help = Scorta
 }
-unit av_ge0 {
+unit ava_ge0 {
 name = Edward
-face = av_ge0
+face = ava_ge0
 help = Executive Aide
 }
-unit ly_ge0 {
+unit lys_ge0 {
 name = Victor
-face = ly_ge0
+face = lys_ge0
 help = General
 }
-unit na_ge0 {
+unit narv_ge0 {
 name = Andrey
-face = na_ge0
+face = narv_ge0
 help = Chinovnik
 }
-unit na_ge00 {
+unit narv_ge00 {
 name = Dmitry
-face = na_ge0
+face = narv_ge0
 help = Chinovnik
 }
 unit orv_ge0 {
