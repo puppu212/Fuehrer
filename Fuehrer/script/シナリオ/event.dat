@@ -93,11 +93,11 @@ if(countSpot(p5) >= 40 && yet(event_p5_SHT)){routine(event_p5_SHT)}
 if(countSpot(p5) >= 45 && yet(event_p5_Germania)){routine(event_p5_Germania)}
 
 //CCNN
-if(getTurn() == 2 && yet(event_p2_CCNN)){routine(event_p2_CCNN)}
+if(getTurn() == 2 && yet(event_p2_CCNN) && isPlayerTurn() == 1){routine(event_p2_CCNN)}
 //シャルロット
 if(getTurn() == 4 && yet(event_p3_Charlotte) && yet(event_p5_Paris) == 0){routine(event_p3_Charlotte)}
 //国家防衛委員会
-if(getTurn() == 6 && yet(event_p1_GKO)){routine(event_p1_GKO)}
+if(getTurn() == 6 && yet(event_p1_GKO) && isPlayerTurn() == 1){routine(event_p1_GKO)}
 //パンジャンドラム
 if(getTurn() == 8 && yet(event_p3_Panjan)){routine(event_p3_Panjan)}
 }
@@ -266,7 +266,7 @@ event event_p1_GKO
 if(isWatching() == 0)
 {
 loopBGM(narv_story1.mp3)
-volume(80)
+volume(100)
 }
 
 scroll(s037)

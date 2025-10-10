@@ -13,7 +13,7 @@ finance = @
 
 staff = er,er_mt1,er_ar1,er_ca1
 friend = er,er_mt1,er_ar1,er_ca1
-merce = er_ht1,er_mt1,er_ar1,er_ca1
+//merce = er_ht1,er_mt1,er_ar1,er_ca1
 class = er_ht1
 member = er_ht1 * 7
 
@@ -69,7 +69,7 @@ skill = ta_tr1,ta_gu1,ta_re1,ls_attack,ls_speed,ls_t1
 
 staff = er,er_mt1
 friend = er,er_mt1
-merce = er_mt1
+//merce = er_mt1
 class = er_mt1
 member = er_mt1 * 7
 
@@ -119,7 +119,7 @@ skill = ta_tr1,ta_gu1,ta_re1,ls_attack2,ls_speed2,ls_t2
 
 staff = er,er_sht1,er_ht1,er_mt1
 friend = er,er_sht1,er_ht1,er_mt1
-merce = er_sht1,er_ht1,er_mt1
+//merce = er_sht1,er_ht1,er_mt1
 class = er_sht1
 member = er_sht1 * 7
 
@@ -142,7 +142,7 @@ skill = ar_hi1,ls_attack,ls_speed,ls_t1
 
 staff = er,er_ar1
 friend = er,er_ar1
-merce = er_ar1
+//merce = er_ar1
 class = er_ar1
 member = er_ar1 * 7
 
@@ -180,7 +180,7 @@ skill = ca_su1,ca_de1,ls_attack,ls_speed,ls_t1
 
 staff = er,er_ca1
 friend = er,er_ca1
-merce = er_ca1
+//merce = er_ca1
 class = er_ca1
 member = er_ca1 * 7
 
@@ -219,7 +219,7 @@ finance = @
 
 staff = car,ar_mt1,ar_ar1,ar_ca1
 friend = car,ar_mt1,ar_ar1,ar_ca1
-merce = ar_ht1,ar_mt1,ar_ar1,ar_ca1
+//merce = ar_ht1,ar_mt1,ar_ar1,ar_ca1
 class = ar_ht1
 member = ar_ht1 * 7
 
@@ -240,7 +240,7 @@ finance = 0
 
 staff = car,ar_mt1,ar_ar1
 friend = car,ar_mt1,ar_ar1
-merce = ar_ht1,ar_mt1,ar_ar1
+//merce = ar_ht1,ar_mt1,ar_ar1
 
 skill = ta_tr1,ta_gu1,ta_re1,ls_dext,ls_move,ls_t1
 
@@ -273,7 +273,7 @@ finance = 0
 
 staff = car,ar_mt1,ar_ar1,ar_ca1
 friend = car,ar_mt1,ar_ar1,ar_ca1
-merce = ar_mt1,ar_ar1,ar_ca1
+//merce = ar_mt1,ar_ar1,ar_ca1
 class = ar_mt1
 member = ar_mt1 * 7
 
@@ -310,7 +310,7 @@ finance = 0
 
 staff = car,ar_ar1
 friend = car,ar_ar1
-merce = ar_ar1
+//merce = ar_ar1
 class = ar_ar1
 member = ar_ar1 * 7
 
@@ -348,7 +348,7 @@ finance = 0
 
 staff = car,ar_ca1
 friend = car,ar_ca1
-merce = ar_ca1
+//merce = ar_ca1
 class = ar_ca1
 member = ar_ca1 * 7
 
@@ -389,7 +389,7 @@ finance = @
 
 staff = ava,av_mt1,av_ar1,av_ca1
 friend = ava,av_mt1,av_ar1,av_ca1
-merce = av_ht1,av_mt1,av_ar1,av_ca1
+//merce = av_ht1,av_mt1,av_ar1,av_ca1
 class = av_ht1
 member = av_ht1 * 7
 
@@ -411,7 +411,7 @@ finance = 0
 
 staff = ava,av_mt1,av_ar1
 friend = ava,av_mt1,av_ar1
-merce = av_ht1,av_mt1,av_ar1
+//merce = av_ht1,av_mt1,av_ar1
 
 skill = ta_tr1,ta_gu1,ta_re1,ls_mp2,ls_defense2,ls_t2
 
@@ -444,7 +444,7 @@ finance = 0
 
 staff = ava,av_mt1
 friend = ava,av_mt1
-merce = av_mt1
+//merce = av_mt1
 class = av_mt1
 member = av_mt1 * 7
 
@@ -482,7 +482,7 @@ finance = 0
 
 staff = ava,av_ar1
 friend = ava,av_ar1
-merce = av_ar1
+//merce = av_ar1
 class = av_ar1
 member = av_ar1 * 7
 
@@ -520,7 +520,7 @@ finance = 0
 
 staff = ava,av_ca1
 friend = ava,av_ca1
-merce = av_ca1
+//merce = av_ca1
 class = av_ca1
 member = av_ca1 * 7
 
@@ -547,7 +547,7 @@ finance = 0
 
 staff = ava,av_mt1,av_ar1,av_ca1
 friend = ava,av_mt1,av_ar1,av_ca1
-merce = av_mt1,av_ar1,av_ca1
+//merce = av_mt1,av_ar1,av_ca1
 class = av_ca1
 member = av_ca1 * 7
 
@@ -577,7 +577,7 @@ finance = @
 
 staff = lys,ly_mt1,ly_ar1,ly_ca1
 friend = lys,ly_mt1,ly_ar1,ly_ca1
-merce = ly_ht1,ly_mt1,ly_ar1,ly_ca1
+//merce = ly_ht1,ly_mt1,ly_ar1,ly_ca1
 class = ly_ht1
 member = ly_ht1 * 7
 
@@ -599,7 +599,7 @@ finance = 0
 
 staff = lys,ly_mt1,ly_ar1
 friend = lys,ly_mt1,ly_ar1
-merce = ly_ht1,ly_mt1,ly_ar1
+//merce = ly_ht1,ly_mt1,ly_ar1
 
 skill = ta_tr1,ta_gu1,ta_re1,ls_hp2,ls_t2
 
@@ -632,7 +632,7 @@ finance = 0
 
 staff = lys,ly_mt1
 friend = lys,ly_mt1
-merce = ly_mt1
+//merce = ly_mt1
 class = ly_mt1
 member = ly_mt1 * 7
 
@@ -670,7 +670,7 @@ finance = 0
 
 staff = lys,ly_ar1
 friend = lys,ly_ar1
-merce = ly_ar1
+//merce = ly_ar1
 class = ly_ar1
 member = ly_ar1 * 7
 
@@ -708,7 +708,7 @@ finance = 0
 
 staff = lys,ly_ca1
 friend = lys,ly_ca1
-merce = ly_ca1
+//merce = ly_ca1
 class = ly_ca1
 member = ly_ca1 * 7
 
@@ -749,7 +749,7 @@ finance = @
 
 staff = narv,na_mt1,na_ar1,na_ca1
 friend = narv,na_mt1,na_ar1,na_ca1
-merce = na_ht1,na_mt1,na_ar1,na_ca1
+//merce = na_ht1,na_mt1,na_ar1,na_ca1
 class = na_ht1
 member = na_ht1 * 7
 
@@ -772,7 +772,7 @@ finance = 0
 
 staff = narv,na_mt1,na_ar1
 friend = narv,na_mt1,na_ar1
-merce = na_ht1,na_mt1,na_ar1
+//merce = na_ht1,na_mt1,na_ar1
 
 skill = ta_tr1,ta_gu1,ta_re1,ta_de1,ls_summon2,ls_t2
 
@@ -807,7 +807,7 @@ skill = ta_tr1,ta_gu1,ta_re1,ta_de1,na_ls1,ls_summon,ls_t1
 
 staff = narv,na_mt1
 friend = narv,na_mt1
-merce = na_mt1
+//merce = na_mt1
 class = na_mt1
 member = na_mt1 * 7
 
@@ -845,7 +845,7 @@ skill = ar_hi1,ls_summon,ls_t1
 
 staff = narv,na_ar1
 friend = narv,na_ar1
-merce = na_ar1
+//merce = na_ar1
 class = na_ar1
 member = na_ar1 * 7
 
@@ -883,7 +883,7 @@ skill = ca_su1,ca_de5,ls_summon,ls_t1
 
 staff = narv,na_ca1
 friend = narv,na_ca1
-merce = na_ca1
+//merce = na_ca1
 class = na_ca1
 member = na_ca1 * 7
 
@@ -922,7 +922,7 @@ finance = @
 
 staff = orv,orv_mt1,orv_ar1,orv_ca1
 friend = orv,orv_mt1,orv_ar1,orv_ca1
-merce = orv_ht1,orv_mt1,orv_ar1,orv_ca1
+//merce = orv_ht1,orv_mt1,orv_ar1,orv_ca1
 class = orv_ht1
 member = orv_ht1 * 7
 
@@ -945,7 +945,7 @@ finance = 0
 
 staff = orv,orv_mt1,orv_ar1
 friend = orv,orv_mt1,orv_ar1
-merce = orv_ht1,orv_mt1,orv_ar1
+//merce = orv_ht1,orv_mt1,orv_ar1
 
 skill = ta_tr1,ta_gu1,ta_re1,ta_de2,ls_attack_orv2,ls_summon_orv2,ls_t2
 
@@ -980,7 +980,7 @@ skill = ta_tr1,ta_gu1,ta_re1,ls_attack_orv,ls_summon_orv,ls_t1
 
 staff = orv,orv_mt1
 friend = orv,orv_mt1
-merce = orv_mt1
+//merce = orv_mt1
 class = orv_mt1
 member = orv_mt1 * 7
 
@@ -1028,7 +1028,7 @@ skill = ar_hi1,ls_attack_orv,ls_summon_orv,ls_t1
 
 staff = orv,na_ar1
 friend = orv,orv_ar1
-merce = orv_ar1
+//merce = orv_ar1
 class = orv_ar1
 member = orv_ar1 * 7
 
@@ -1066,7 +1066,7 @@ skill = ca_su1,ca_de5,ls_attack_orv,ls_summon_orv,ls_t1
 
 staff = orv,orv_ca1
 friend = orv,orv_ca1
-merce = orv_ca1
+//merce = orv_ca1
 class = orv_ca1
 member = orv_ca1 * 7
 

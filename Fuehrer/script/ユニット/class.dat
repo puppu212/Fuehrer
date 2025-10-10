@@ -120,7 +120,7 @@ level = 15
 change = ne_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = ne_mt,ne_mt2up
+merce = ne_mt1,ne_mt2up
 member = ne_mt2 * 7
 }
 class ne_mt3 : ne_mt1
@@ -129,7 +129,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = ne_mt,ne_mt2up,ne_mt3up
+merce = ne_mt1,ne_mt2up,ne_mt3up
 member = ne_mt3 * 7
 }
 
@@ -162,7 +162,7 @@ level = 15
 change = er_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = er_mt,er_mt2up
+merce = er_mt1,er_mt2up
 member = er_mt2 * 7
 }
 class er_mt3 : er_mt1
@@ -171,7 +171,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = er_mt,er_mt2up,er_mt3up
+merce = er_mt1,er_mt2up,er_mt3up
 member = er_mt3 * 7
 }
 
@@ -184,7 +184,7 @@ image = car_mt1
 fkey = mtank
 
 change = car_mt2 * 15
-merce = car_mt1
+merce = ar_mt1
 
 hp = 2400
 mp = 100
@@ -205,7 +205,7 @@ level = 15
 change = car_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = car_mt,car_mt2up
+merce = ar_mt1,car_mt2up
 member = car_mt2 * 7
 }
 class car_mt3 : ar_mt1
@@ -214,7 +214,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = car_mt,car_mt2up,car_mt3up
+merce = ar_mt1,car_mt2up,car_mt3up
 member = car_mt3 * 7
 }
 
@@ -226,7 +226,7 @@ image = ava_mt1
 fkey = mtank
 
 change = ava_mt2 * 15
-merce = ava_mt1
+merce = av_mt1
 
 hp = 2600
 mp = 100
@@ -247,7 +247,7 @@ level = 15
 change = ava_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = ava_mt,ava_mt2up
+merce = av_mt1,ava_mt2up
 member = ava_mt2 * 7
 }
 class ava_mt3 : av_mt1
@@ -256,7 +256,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = ava_mt,ava_mt2up,ava_mt3up
+merce = av_mt1,ava_mt2up,ava_mt3up
 member = ava_mt3 * 7
 }
 
@@ -289,7 +289,7 @@ level = 15
 change = lys_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = lys_mt,lys_mt2up
+merce = ly_mt1,lys_mt2up
 member = lys_mt2 * 7
 }
 class lys_mt3 : ly_mt1
@@ -298,7 +298,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = lys_mt,lys_mt2up,lys_mt3up
+merce = ly_mt1,lys_mt2up,lys_mt3up
 member = lys_mt3 * 7
 }
 
@@ -310,7 +310,7 @@ image = narv_mt1
 fkey = mtank
 
 change = narv_mt2 * 15
-merce = narv_mt1
+merce = na_mt1
 
 hp = 2500
 mp = 100
@@ -333,7 +333,7 @@ level = 15
 change = narv_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = narv_mt,narv_mt2up
+merce = na_mt1,narv_mt2up
 member = narv_mt2 * 7
 }
 class narv_mt3 : na_mt1
@@ -342,7 +342,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = narv_mt,narv_mt2up,narv_mt3up
+merce = na_mt1,narv_mt2up,narv_mt3up
 member = narv_mt3 * 7
 }
 
@@ -377,7 +377,7 @@ level = 15
 change = orv_mt3 * 30
 price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-merce = orv_mt,orv_mt2up
+merce = orv_mt1,orv_mt2up
 member = orv_mt2 * 7
 }
 class orv_mt3 : orv_mt1
@@ -386,7 +386,7 @@ name = íÜêÌé‘áV
 level = 30
 price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-merce = orv_mt,orv_mt2up,orv_mt3up
+merce = orv_mt1,orv_mt2up,orv_mt3up
 member = orv_mt3 * 7
 }
 
@@ -422,7 +422,7 @@ level = 15
 change = er_ht3 * 30
 price = 3000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = er_ht,er_ht2up
+merce = er_ht1,er_ht2up
 member = er_ht2 * 7
 }
 class er_ht3 : er_ht1
@@ -431,7 +431,7 @@ name = èdêÌé‘áV
 level = 30
 price = 9000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = er_ht,er_ht2up,er_ht3up
+merce = er_ht1,er_ht2up,er_ht3up
 member = er_ht3 * 7
 }
 
@@ -443,7 +443,7 @@ image = car_ht1
 fkey = htank
 
 change = car_ht2 * 15
-merce = car_ht1
+merce = ar_ht1
 price = 1000
 
 hp = 2900
@@ -465,7 +465,7 @@ level = 15
 change = car_ht3 * 30
 price = 3000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = car_ht,car_ht2up
+merce = ar_ht1,car_ht2up
 member = car_ht2 * 7
 }
 class car_ht3 : ar_ht1
@@ -474,7 +474,7 @@ name = èdêÌé‘áV
 level = 30
 price = 9000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = car_ht,car_ht2up,car_ht3up
+merce = ar_ht1,car_ht2up,car_ht3up
 member = car_ht3 * 7
 }
 
@@ -486,7 +486,7 @@ image = ava_ht1
 fkey = htank
 
 change = ava_ht2 * 15
-merce = ava_ht1
+merce = av_ht1
 price = 1000
 
 hp = 3100
@@ -508,7 +508,7 @@ level = 15
 change = ava_ht3 * 30
 price = 3000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = ava_ht,ava_ht2up
+merce = ava_ht1,ava_ht2up
 member = ava_ht2 * 7
 }
 class ava_ht3 : av_ht1
@@ -517,7 +517,7 @@ name = èdêÌé‘áV
 level = 30
 price = 9000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = ava_ht,ava_ht2up,ava_ht3up
+merce = ava_h1,ava_ht2up,ava_ht3up
 member = ava_ht3 * 7
 }
 
@@ -551,7 +551,7 @@ level = 15
 change = lys_ht3 * 30
 price = 3000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = lys_ht,lys_ht2up
+merce = ly_ht1,lys_ht2up
 member = lys_ht2 * 7
 }
 class lys_ht3 : ly_ht1
@@ -560,7 +560,7 @@ name = èdêÌé‘áV
 level = 30
 price = 9000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = lys_ht,lys_ht2up,lys_ht3up
+merce = ly_ht1,lys_ht2up,lys_ht3up
 member = lys_ht3 * 7
 }
 
@@ -572,7 +572,7 @@ image = narv_ht1
 fkey = htank
 
 change = narv_ht2 * 15
-merce = narv_ht1
+merce = na_ht1
 price = 1000
 
 hp = 3000
@@ -596,7 +596,7 @@ level = 15
 change = narv_ht3 * 30
 price = 3000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = narv_ht,narv_ht2up
+merce = na_ht1,narv_ht2up
 member = narv_ht2 * 7
 }
 class narv_ht3 : na_ht1
@@ -605,7 +605,7 @@ name = èdêÌé‘áV
 level = 30
 price = 9000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = narv_ht,narv_ht2up,narv_ht3up
+merce = na_ht1,narv_ht2up,narv_ht3up
 member = narv_ht3 * 7
 }
 
@@ -685,7 +685,7 @@ level = 15
 change = er_ht3 * 30
 price = 9000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = er_ht,er_ht2up
+merce = er_sht1,er_sht2up
 member = er_ht2 * 7
 }
 class er_sht3 : er_sht1
@@ -694,7 +694,7 @@ name = í¥èdêÌé‘áV
 level = 30
 price = 27000
 skill = ta_tr1,ta_gu1,ta_re1
-merce = er_sht,er_sht2up,er_sht3up
+merce = er_sht1,er_sht2up,er_sht3up
 member = er_sht3 * 7
 }
 
@@ -753,7 +753,7 @@ name = é©ëññCáU
 level = 15
 change = ne_ar3 * 30
 price = 2100
-skill = ar_hi2
+skill = ne_hi2
 merce = ne_ar1,ne_ar2up
 member = ne_ar2 * 7
 }
@@ -762,7 +762,7 @@ class ne_ar3 : ne_ar1
 name = é©ëññCáV
 level = 30
 price = 6300
-skill = ar_hi3
+skill = ne_hi3
 merce = ne_ar1,ne_ar2up,ne_ar3up
 member = ne_ar3 * 7
 }
@@ -812,6 +812,9 @@ race = car
 name = é©ëññC
 image = car_ar1
 
+change = car_ar2 * 15
+merce = ar_ar1
+
 hp = 800
 attack = 130
 defense = 30
@@ -829,7 +832,7 @@ level = 15
 change = car_ar3 * 30
 price = 2100
 skill = ar_hi2
-merce = car_ar1,car_ar2up
+merce = ar_ar1,car_ar2up
 member = car_ar2 * 7
 }
 class car_ar3 : ar_ar1
@@ -838,7 +841,7 @@ name = é©ëññCáV
 level = 30
 price = 6300
 skill = ar_hi3
-merce = car_ar1,car_ar2up,car_ar3up
+merce = ar_ar1,car_ar2up,car_ar3up
 member = car_ar3 * 7
 }
 
@@ -868,7 +871,7 @@ level = 15
 change = ava_ar3 * 30
 price = 2100
 skill = ar_hi2
-merce = ava_ar1,ava_ar2up
+merce = av_ar1,ava_ar2up
 member = ava_ar2 * 7
 }
 class ava_ar3 : av_ar1
@@ -877,7 +880,7 @@ name = é©ëññCáV
 level = 30
 price = 6300
 skill = ar_hi3
-merce = ava_ar1,ava_ar2up,ava_ar3up
+merce = av_ar1,ava_ar2up,ava_ar3up
 member = ava_ar3 * 7
 }
 
@@ -907,7 +910,7 @@ level = 15
 change = lys_ar3 * 30
 price = 2100
 skill = ar_hi2
-merce = lys_ar1,lys_ar2up
+merce = ly_ar1,lys_ar2up
 member = lys_ar2 * 7
 }
 class lys_ar3 : ly_ar1
@@ -916,7 +919,7 @@ name = é©ëññCáV
 level = 30
 price = 6300
 skill = ar_hi3
-merce = lys_ar1,lys_ar2up,lys_ar3up
+merce = ly_ar1,lys_ar2up,lys_ar3up
 member = lys_ar3 * 7
 }
 
@@ -927,7 +930,7 @@ name = é©ëññC
 image = narv_ar1
 
 change = narv_ar2 * 15
-merce = narv_ar1
+merce = na_ar1
 
 hp = 700
 attack = 160
@@ -946,7 +949,7 @@ level = 15
 change = narv_ar3 * 30
 price = 2100
 skill = ar_hi2
-merce = narv_ar1,narv_ar2up
+merce = na_ar1,narv_ar2up
 member = narv_ar2 * 7
 }
 class narv_ar3 : na_ar1
@@ -955,7 +958,7 @@ name = é©ëññCáV
 level = 30
 price = 6300
 skill = ar_hi3
-merce = narv_ar1,narv_ar2up,narv_ar3up
+merce = na_ar1,narv_ar2up,narv_ar3up
 member = narv_ar3 * 7
 }
 
@@ -1130,7 +1133,7 @@ image = car_ca1
 skill = ca_de2,ca_su1
 
 change = car_ca2 * 15
-merce = car_ca1
+merce = ar_ca1
 
 hp = 400
 mp = 90
@@ -1153,7 +1156,7 @@ change = car_ca3 * 30
 price = 1800
 mprec = 3
 skill = ca_de0,ca_su1
-merce = car_ca1,car_ca2up
+merce = ar_ca1,car_ca2up
 member = catholica2 * 7
 }
 class car_ca3 : ar_ca1
@@ -1164,7 +1167,7 @@ price = 5400
 mprec = 5
 
 skill = ca_de0,ca_su1
-merce = car_ca1,car_ca2up,car_ca3up
+merce = ar_ca1,car_ca2up,car_ca3up
 member = car_ca3 * 7
 }
 
@@ -1176,7 +1179,7 @@ image = ava_ca1
 skill = ca_de3,ca_su1
 
 change = ava_ca2 * 15
-merce = ava_ca1
+merce = av_ca1
 
 hp = 600
 mp = 110
@@ -1200,7 +1203,7 @@ change = ava_ca3 * 30
 price = 1800
 mprec = 3
 skill = ca_de0,ca_su1
-merce = ava_ca1,ava_ca2up
+merce = av_ca1,ava_ca2up
 member = catholica2 * 7
 }
 class ava_ca3 : av_ca1
@@ -1211,7 +1214,7 @@ price = 5400
 mprec = 5
 
 skill = ca_de0,ca_su1
-merce = ava_ca1,ava_ca2up,ava_ca3up
+merce = av_ca1,ava_ca2up,ava_ca3up
 member = ava_ca3 * 7
 }
 
@@ -1246,7 +1249,7 @@ change = lys_ca3 * 30
 price = 1800
 mprec = 3
 skill = ca_de0,ca_su1
-merce = lys_ca1,lys_ca2up
+merce = ly_ca1,lys_ca2up
 member = catholica2 * 7
 }
 class lys_ca3 : ly_ca1
@@ -1257,7 +1260,7 @@ price = 5400
 mprec = 5
 
 skill = ca_de0,ca_su1
-merce = lys_ca1,lys_ca2up,lys_ca3up
+merce = ly_ca1,lys_ca2up,lys_ca3up
 member = lys_ca3 * 7
 }
 
@@ -1269,7 +1272,7 @@ image = narv_ca1
 skill = ca_de5,ca_su1
 
 change = narv_ca2 * 15
-merce = narv_ca1
+merce = na_ca1
 
 hp = 500
 mp = 100
@@ -1292,7 +1295,7 @@ change = narv_ca3 * 30
 price = 1800
 mprec = 3
 skill = ca_de0,ca_su1
-merce = narv_ca1,narv_ca2up
+merce = na_ca1,narv_ca2up
 member = catholica2 * 7
 }
 class narv_ca3 : na_ca1
@@ -1303,7 +1306,7 @@ price = 5400
 mprec = 5
 
 skill = ca_de0,ca_su1
-merce = narv_ca1,narv_ca2up,narv_ca3up
+merce = na_ca1,narv_ca2up,narv_ca3up
 member = narv_ca3 * 7
 }
 
