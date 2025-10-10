@@ -65,15 +65,15 @@ movetype = grass
 //’†íÔ
 class ne_mt1 : base
 {
-name = íÔ
+name = ’†íÔ
 image = ne_mt1
-fkey = tank
+fkey = mtank
 level = 1
 exp_mul = 100
-//change = ne_ta2 * 15
+change = ne_mt2 * 15
 skill = ta_gu1,ta_re1,ta_tr1
-//merce = ne_ta1
-member = ne_ta1 * 7
+merce = ne_mt1
+member = ne_mt1 * 7
 price = 800
 cost = 5
 same_call = on
@@ -113,30 +113,35 @@ mprecUp = 0
 
 line = front
 }
-class ne_ta2 : ne_mt1
+class ne_mt2 : ne_mt1
 {
-name = íÔ‡U
+name = ’†íÔ‡U
 level = 15
-//change = ne_ta3 * 30
-price = 500
+change = ne_mt3 * 30
+price = 2400
 skill = ta_tr1,ta_gu1,ta_re1
-//merce = ne_ta,ne_ta2up
-member = ne_ta2 * 7
+merce = ne_mt,ne_mt2up
+member = ne_mt2 * 7
 }
-class ne_ta3 : ne_mt1
+class ne_mt3 : ne_mt1
 {
-name = íÔ‡V
+name = ’†íÔ‡V
 level = 30
-price = 500
+price = 7200
 skill = ta_tr1,ta_gu1,ta_re1
-//merce = ne_ta,ne_ta2up,ne_ta3up
-member = ne_ta3 * 7
+merce = ne_mt,ne_mt2up,ne_mt3up
+member = ne_mt3 * 7
 }
+
+//ER
 class er_mt1 : ne_mt1 {
 race = er
 name = ’†íÔ
 image = er_mt1
 fkey = mtank
+
+change = er_mt2 * 15
+merce = er_mt1
 
 hp = 2600
 mp = 100
@@ -150,11 +155,36 @@ move = 120
 hprec = 0
 mprec = 0
 }
+class er_mt2 : er_mt1
+{
+name = ’†íÔ‡U
+level = 15
+change = er_mt3 * 30
+price = 2400
+skill = ta_tr1,ta_gu1,ta_re1
+merce = er_mt,er_mt2up
+member = er_mt2 * 7
+}
+class er_mt3 : er_mt1
+{
+name = ’†íÔ‡V
+level = 30
+price = 7200
+skill = ta_tr1,ta_gu1,ta_re1
+merce = er_mt,er_mt2up,er_mt3up
+member = er_mt3 * 7
+}
+
+
+//CAR
 class ar_mt1 : ne_mt1 {
 race = car
 name = ’†íÔ
 image = ar_mt1
 fkey = mtank
+
+change = car_mt2 * 15
+merce = car_mt1
 
 hp = 2400
 mp = 100
@@ -168,11 +198,35 @@ move = 130
 hprec = 0
 mprec = 0
 }
+class car_mt2 : car_mt1
+{
+name = ’†íÔ‡U
+level = 15
+change = car_mt3 * 30
+price = 2400
+skill = ta_tr1,ta_gu1,ta_re1
+merce = car_mt,car_mt2up
+member = car_mt2 * 7
+}
+class car_mt3 : car_mt1
+{
+name = ’†íÔ‡V
+level = 30
+price = 7200
+skill = ta_tr1,ta_gu1,ta_re1
+merce = car_mt,car_mt2up,car_mt3up
+member = car_mt3 * 7
+}
+
+//AVA
 class av_mt1 : ne_mt1 {
 race = ava
 name = ’†íÔ
 image = av_mt1
 fkey = mtank
+
+change = ava_mt2 * 15
+merce = ava_mt1
 
 hp = 2600
 mp = 100
@@ -186,11 +240,35 @@ move = 110
 hprec = 0
 mprec = 0
 }
+class ava_mt2 : ava_mt1
+{
+name = ’†íÔ‡U
+level = 15
+change = ava_mt3 * 30
+price = 2400
+skill = ta_tr1,ta_gu1,ta_re1
+merce = ava_mt,ava_mt2up
+member = ava_mt2 * 7
+}
+class ava_mt3 : ava_mt1
+{
+name = ’†íÔ‡V
+level = 30
+price = 7200
+skill = ta_tr1,ta_gu1,ta_re1
+merce = ava_mt,ava_mt2up,ava_mt3up
+member = ava_mt3 * 7
+}
+
+//LYS
 class ly_mt1 : ne_mt1 {
 race = lys
 name = ’†íÔ
 image = ly_mt1
 fkey = mtank
+
+change = lys_mt2 * 15
+merce = lys_mt1
 
 hp = 2700
 mp = 100
@@ -204,11 +282,35 @@ move = 110
 hprec = 0
 mprec = 0
 }
+class lys_mt2 : lys_mt1
+{
+name = ’†íÔ‡U
+level = 15
+change = lys_mt3 * 30
+price = 2400
+skill = ta_tr1,ta_gu1,ta_re1
+merce = lys_mt,lys_mt2up
+member = lys_mt2 * 7
+}
+class lys_mt3 : lys_mt1
+{
+name = ’†íÔ‡V
+level = 30
+price = 7200
+skill = ta_tr1,ta_gu1,ta_re1
+merce = lys_mt,lys_mt2up,lys_mt3up
+member = lys_mt3 * 7
+}
+
+//NARV
 class na_mt1 : ne_mt1 {
 race = narv
 name = ’†íÔ
 image = na_mt1
 fkey = mtank
+
+change = narv_mt2 * 15
+merce = narv_mt1
 
 hp = 2500
 mp = 100
@@ -224,11 +326,35 @@ mprec = 0
 
 skill = ta_tr1,ta_gu1,ta_re1,ta_de1
 }
+class narv_mt2 : narv_mt1
+{
+name = ’†íÔ‡U
+level = 15
+change = narv_mt3 * 30
+price = 2400
+skill = ta_tr1,ta_gu1,ta_re1
+merce = narv_mt,narv_mt2up
+member = narv_mt2 * 7
+}
+class narv_mt3 : narv_mt1
+{
+name = ’†íÔ‡V
+level = 30
+price = 7200
+skill = ta_tr1,ta_gu1,ta_re1
+merce = narv_mt,narv_mt2up,narv_mt3up
+member = narv_mt3 * 7
+}
+
+//ORV
 class orv_mt1 : ne_mt1 {
 race = orv
 name = ’†íÔ
 image = orv_mt1
 fkey = mtank
+
+change = orv_mt2 * 15
+merce = orv_mt1
 
 hp = 2600
 mp = 120
@@ -244,15 +370,37 @@ mprec = 0
 
 skill = ta_tr1,ta_gu1,ta_re1,ta_de1
 }
+class orv_mt2 : orv_mt1
+{
+name = ’†íÔ‡U
+level = 15
+change = orv_mt3 * 30
+price = 2400
+skill = ta_tr1,ta_gu1,ta_re1
+merce = orv_mt,orv_mt2up
+member = orv_mt2 * 7
+}
+class orv_mt3 : orv_mt1
+{
+name = ’†íÔ‡V
+level = 30
+price = 7200
+skill = ta_tr1,ta_gu1,ta_re1
+merce = orv_mt,orv_mt2up,orv_mt3up
+member = orv_mt3 * 7
+}
 
 
 //díÔ
+//ER
 class er_ht1 : ne_mt1 {
 race = er
 name = díÔ
 image = er_ht1
 fkey = htank
 
+change = er_ht2 * 15
+merce = er_ht1
 price = 1000
 
 hp = 3100
@@ -267,11 +415,36 @@ move = 90
 hprec = 0
 mprec = 0
 }
+class er_ht2 : er_ht1
+{
+name = díÔ‡U
+level = 15
+change = er_ht3 * 30
+price = 3000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = er_ht,er_ht2up
+member = er_ht2 * 7
+}
+class er_ht3 : er_ht1
+{
+name = díÔ‡V
+level = 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = er_ht,er_ht2up,er_ht3up
+member = er_ht3 * 7
+}
+
+//CAR
 class ar_ht1 : er_ht1 {
 race = car
 name = díÔ
 image = ar_ht1
 fkey = htank
+
+change = car_ht2 * 15
+merce = car_ht1
+price = 1000
 
 hp = 2900
 mp = 100
@@ -285,11 +458,36 @@ move = 110
 hprec = 0
 mprec = 0
 }
+class car_ht2 : car_ht1
+{
+name = díÔ‡U
+level = 15
+change = car_ht3 * 30
+price = 3000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = car_ht,car_ht2up
+member = car_ht2 * 7
+}
+class car_ht3 : car_ht1
+{
+name = díÔ‡V
+level = 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = car_ht,car_ht2up,car_ht3up
+member = car_ht3 * 7
+}
+
+//AVA
 class av_ht1 : er_ht1 {
 race = ava
 name = díÔ
 image = av_ht1
 fkey = htank
+
+change = ava_ht2 * 15
+merce = ava_ht1
+price = 1000
 
 hp = 3100
 mp = 100
@@ -303,11 +501,36 @@ move = 90
 hprec = 0
 mprec = 0
 }
+class ava_ht2 : ava_ht1
+{
+name = díÔ‡U
+level = 15
+change = ava_ht3 * 30
+price = 3000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = ava_ht,ava_ht2up
+member = ava_ht2 * 7
+}
+class ava_ht3 : ava_ht1
+{
+name = díÔ‡V
+level = 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = ava_ht,ava_ht2up,ava_ht3up
+member = ava_ht3 * 7
+}
+
+//LYS
 class ly_ht1 : er_ht1 {
 race = lys
 name = díÔ
 image = ly_ht1
 fkey = htank
+
+change = lys_ht2 * 15
+merce = lys_ht1
+price = 1000
 
 hp = 3200
 mp = 100
@@ -321,11 +544,36 @@ move = 110
 hprec = 0
 mprec = 0
 }
+class lys_ht2 : lys_ht1
+{
+name = díÔ‡U
+level = 15
+change = lys_ht3 * 30
+price = 3000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = lys_ht,lys_ht2up
+member = lys_ht2 * 7
+}
+class lys_ht3 : lys_ht1
+{
+name = díÔ‡V
+level = 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = lys_ht,lys_ht2up,lys_ht3up
+member = lys_ht3 * 7
+}
+
+//NARV
 class na_ht1 : er_ht1 {
 race = narv
 name = díÔ
 image = na_ht1
 fkey = htank
+
+change = narv_ht2 * 15
+merce = narv_ht1
+price = 1000
 
 hp = 3000
 mp = 100
@@ -341,11 +589,36 @@ mprec = 0
 
 skill = ta_gu1,ta_re1,ta_tr1,ta_de1
 }
+class narv_ht2 : narv_ht1
+{
+name = díÔ‡U
+level = 15
+change = narv_ht3 * 30
+price = 3000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = narv_ht,narv_ht2up
+member = narv_ht2 * 7
+}
+class narv_ht3 : narv_ht1
+{
+name = díÔ‡V
+level = 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = narv_ht,narv_ht2up,narv_ht3up
+member = narv_ht3 * 7
+}
+
+//ORV
 class orv_ht1 : er_ht1 {
 race = orv
 name = díÔ
 image = orv_ht1
 fkey = htank
+
+change = orv_ht2 * 15
+merce = orv_ht1
+price = 1000
 
 hp = 3100
 mp = 120
@@ -361,6 +634,25 @@ mprec = 0
 
 skill = ta_gu1,ta_re1,ta_tr1,ta_de2
 }
+class orv_ht2 : orv_ht1
+{
+name = díÔ‡U
+level = 15
+change = orv_ht3 * 30
+price = 3000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = orv_ht,orv_ht2up
+member = orv_ht2 * 7
+}
+class orv_ht3 : orv_ht1
+{
+name = díÔ‡V
+level = 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = orv_ht,orv_ht2up,orv_ht3up
+member = orv_ht3 * 7
+}
 
 
 //’´díÔ
@@ -368,8 +660,10 @@ class er_sht1 : er_ht1 {
 race = er
 name = ’´díÔ
 image = er_sht1
-fkey = htank
+fkey = shtank
 
+change = er_sht2 * 15
+merce = er_sht1
 price = 3000
 
 hp = 10000
@@ -384,6 +678,25 @@ move = 40
 hprec = 0
 mprec = 0
 }
+class er_sht2 : er_sht1
+{
+name = ’´díÔ‡U
+level = 15
+change = er_ht3 * 30
+price = 9000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = er_ht,er_ht2up
+member = er_ht2 * 7
+}
+class er_sht3 : er_sht1
+{
+name = ’´díÔ‡V
+level = 30
+price = 27000
+skill = ta_tr1,ta_gu1,ta_re1
+merce = er_sht,er_sht2up,er_sht3up
+member = er_sht3 * 7
+}
 
 
 //©‘––C
@@ -394,9 +707,9 @@ image = ne_ar1
 fkey = artillery
 level = 1
 exp_mul = 100
-//change = ne_ar2 * 15
+change = ne_ar2 * 15
 skill = ar_hi1
-//merce = ne_ar1
+merce = ne_ar1
 member = ne_ar1 * 7
 price = 700
 cost = 5
@@ -438,25 +751,30 @@ class ne_ar2 : ne_ar1
 {
 name = ©‘––C‡U
 level = 15
-//change = ne_ar3 * 30
-price = 500
+change = ne_ar3 * 30
+price = 2100
 skill = ar_hi2
-//merce = ne_ar1,ne_ar2up
+merce = ne_ar1,ne_ar2up
 member = ne_ar2 * 7
 }
 class ne_ar3 : ne_ar1
 {
 name = ©‘––C‡V
 level = 30
-price = 500
+price = 6300
 skill = ar_hi3
-//merce = ne_ar1,ne_ar2up,ne_ar3up
+merce = ne_ar1,ne_ar2up,ne_ar3up
 member = ne_ar3 * 7
 }
+
+//ER
 class er_ar1 : ne_ar1 {
 race = er
 name = ©‘––C
 image = er_ar1
+
+change = er_ar2 * 15
+merce = er_ar1
 
 hp = 700
 attack = 150
@@ -468,6 +786,27 @@ move = 80
 hprec = 0
 mprec = 0
 }
+class er_ar2 : er_ar1
+{
+name = ©‘––C‡U
+level = 15
+change = er_ar3 * 30
+price = 2100
+skill = ar_hi2
+merce = er_ar1,er_ar2up
+member = er_ar2 * 7
+}
+class er_ar3 : er_ar1
+{
+name = ©‘––C‡V
+level = 30
+price = 6300
+skill = ar_hi3
+merce = er_ar1,er_ar2up,er_ar3up
+member = er_ar3 * 7
+}
+
+//CAR
 class ar_ar1 : ne_ar1 {
 race = car
 name = ©‘––C
@@ -483,10 +822,34 @@ move = 90
 hprec = 0
 mprec = 0
 }
+class car_ar2 : car_ar1
+{
+name = ©‘––C‡U
+level = 15
+change = car_ar3 * 30
+price = 2100
+skill = ar_hi2
+merce = car_ar1,car_ar2up
+member = car_ar2 * 7
+}
+class car_ar3 : car_ar1
+{
+name = ©‘––C‡V
+level = 30
+price = 6300
+skill = ar_hi3
+merce = car_ar1,car_ar2up,car_ar3up
+member = car_ar3 * 7
+}
+
+//AVA
 class av_ar1 : ne_ar1 {
 race = ava
 name = ©‘––C
 image = av_ar1
+
+change = ava_ar2 * 15
+merce = av_ar1
 
 hp = 600
 attack = 140
@@ -498,10 +861,34 @@ move = 80
 hprec = 0
 mprec = 0
 }
+class ava_ar2 : ava_ar1
+{
+name = ©‘––C‡U
+level = 15
+change = ava_ar3 * 30
+price = 2100
+skill = ar_hi2
+merce = ava_ar1,ava_ar2up
+member = ava_ar2 * 7
+}
+class ava_ar3 : ava_ar1
+{
+name = ©‘––C‡V
+level = 30
+price = 6300
+skill = ar_hi3
+merce = ava_ar1,ava_ar2up,ava_ar3up
+member = ava_ar3 * 7
+}
+
+//LYS
 class ly_ar1 : ne_ar1 {
 race = lys
 name = ©‘––C
 image = ly_ar1
+
+change = lys_ar2 * 15
+merce = lys_ar1
 
 hp = 800
 attack = 130
@@ -513,10 +900,34 @@ move = 90
 hprec = 0
 mprec = 0
 }
+class lys_ar2 : lys_ar1
+{
+name = ©‘––C‡U
+level = 15
+change = lys_ar3 * 30
+price = 2100
+skill = ar_hi2
+merce = lys_ar1,lys_ar2up
+member = lys_ar2 * 7
+}
+class lys_ar3 : lys_ar1
+{
+name = ©‘––C‡V
+level = 30
+price = 6300
+skill = ar_hi3
+merce = lys_ar1,lys_ar2up,lys_ar3up
+member = lys_ar3 * 7
+}
+
+//NARV
 class na_ar1 : ne_ar1 {
 race = narv
 name = ©‘––C
 image = na_ar1
+
+change = narv_ar2 * 15
+merce = narv_ar1
 
 hp = 700
 attack = 160
@@ -528,10 +939,34 @@ move = 80
 hprec = 0
 mprec = 0
 }
+class narv_ar2 : narv_ar1
+{
+name = ©‘––C‡U
+level = 15
+change = narv_ar3 * 30
+price = 2100
+skill = ar_hi2
+merce = narv_ar1,narv_ar2up
+member = narv_ar2 * 7
+}
+class narv_ar3 : narv_ar1
+{
+name = ©‘––C‡V
+level = 30
+price = 6300
+skill = ar_hi3
+merce = narv_ar1,narv_ar2up,narv_ar3up
+member = narv_ar3 * 7
+}
+
+//ORV
 class orv_ar1 : ne_ar1 {
 race = orv
 name = ©‘––C
 image = orv_ar1
+
+change = orv_ar2 * 15
+merce = orv_ar1
 
 hp = 800
 attack = 140
@@ -542,6 +977,25 @@ dext = 110
 move = 90
 hprec = 0
 mprec = 0
+}
+class orv_ar2 : orv_ar1
+{
+name = ©‘––C‡U
+level = 15
+change = orv_ar3 * 30
+price = 2100
+skill = ar_hi2
+merce = orv_ar1,orv_ar2up
+member = orv_ar2 * 7
+}
+class orv_ar3 : orv_ar1
+{
+name = ©‘––C‡V
+level = 30
+price = 6300
+skill = ar_hi3
+merce = orv_ar1,orv_ar2up,orv_ar3up
+member = orv_ar3 * 7
 }
 
 
@@ -554,10 +1008,10 @@ fkey = career
 level = 1
 exp_mul = 500
 change = ne_ca2 * 15
-//skill = ca_de0,ca_su1
+skill = ca_de0,ca_su1
 member = ne_ca * 7
 price = 600
-//merce = ne_ca1
+merce = ne_ca1
 cost = 5
 same_call = on
 samecall_baseup = on
@@ -604,28 +1058,33 @@ class ne_ca2 : ne_ca1
 name = •ºˆõ—A‘—Ô‡U
 level = 15
 change = ne_ca3 * 30
-price = 500
+price = 1800
 mprec = 3
-//skill = ca_de0,ca_su1
-//merce = ne_ca1,ne_ca2up
+skill = ca_de0,ca_su1
+merce = ne_ca1,ne_ca2up
 member = catholica2 * 7
 }
 class ne_ca3 : ne_ca1
 {
 name = •ºˆõ—A‘—Ô‡V
 level = 30
-price = 500
+price = 5400
 mprec = 5
 
-//skill = ca_de0,ca_su1
-//merce = ne_ca1,ne_ca2up,ne_ca3up
+skill = ca_de0,ca_su1
+merce = ne_ca1,ne_ca2up,ne_ca3up
 member = ne_ca3 * 7
 }
+
+//ER
 class er_ca1 : ne_ca1 {
 race = er
 name = •ºˆõ—A‘—Ô
 image = er_ca1
 skill = ca_de1,ca_su1
+
+change = er_ca2 * 15
+merce = er_ca1
 
 hp = 600
 mp = 100
@@ -640,11 +1099,38 @@ summon_max = 5
 hprec = 0
 mprec = 2
 }
+class er_ca2 : er_ca1
+{
+name = •ºˆõ—A‘—Ô‡U
+level = 15
+change = er_ca3 * 30
+price = 1800
+mprec = 3
+skill = ca_de0,ca_su1
+merce = er_ca1,er_ca2up
+member = catholica2 * 7
+}
+class er_ca3 : er_ca1
+{
+name = •ºˆõ—A‘—Ô‡V
+level = 30
+price = 5400
+mprec = 5
+
+skill = ca_de0,ca_su1
+merce = er_ca1,er_ca2up,er_ca3up
+member = er_ca3 * 7
+}
+
+//CAR
 class ar_ca1 : ne_ca1 {
 race = car
 name = •ºˆõ—A‘—Ô
 image = ar_ca1
 skill = ca_de2,ca_su1
+
+change = car_ca2 * 15
+merce = car_ca1
 
 hp = 400
 mp = 90
@@ -659,11 +1145,38 @@ summon_max = 5
 hprec = 0
 mprec = 2
 }
+class car_ca2 : car_ca1
+{
+name = •ºˆõ—A‘—Ô‡U
+level = 15
+change = car_ca3 * 30
+price = 1800
+mprec = 3
+skill = ca_de0,ca_su1
+merce = car_ca1,car_ca2up
+member = catholica2 * 7
+}
+class car_ca3 : car_ca1
+{
+name = •ºˆõ—A‘—Ô‡V
+level = 30
+price = 5400
+mprec = 5
+
+skill = ca_de0,ca_su1
+merce = car_ca1,car_ca2up,car_ca3up
+member = car_ca3 * 7
+}
+
+//AVA
 class av_ca1 : ne_ca1 {
 race = ava
 name = •ºˆõ—A‘—Ô
 image = av_ca1
 skill = ca_de3,ca_su1
+
+change = ava_ca2 * 15
+merce = ava_ca1
 
 hp = 600
 mp = 110
@@ -679,11 +1192,38 @@ summon_max = 5
 hprec = 0
 mprec = 1
 }
+class ava_ca2 : ava_ca1
+{
+name = •ºˆõ—A‘—Ô‡U
+level = 15
+change = ava_ca3 * 30
+price = 1800
+mprec = 3
+skill = ca_de0,ca_su1
+merce = ava_ca1,ava_ca2up
+member = catholica2 * 7
+}
+class ava_ca3 : ava_ca1
+{
+name = •ºˆõ—A‘—Ô‡V
+level = 30
+price = 5400
+mprec = 5
+
+skill = ca_de0,ca_su1
+merce = ava_ca1,ava_ca2up,ava_ca3up
+member = ava_ca3 * 7
+}
+
+//LYS
 class ly_ca1 : ne_ca1 {
 race = lys
 name = •ºˆõ—A‘—Ô
 image = ly_ca1
 skill = ca_de4,ca_su1
+
+change = lys_ca2 * 15
+merce = lys_ca1
 
 hp = 400
 mp = 100
@@ -698,11 +1238,38 @@ summon_max = 5
 hprec = 0
 mprec = 1
 }
-class na_ca1 : ne_ca1 {
+class lys_ca2 : lys_ca1
+{
+name = •ºˆõ—A‘—Ô‡U
+level = 15
+change = lys_ca3 * 30
+price = 1800
+mprec = 3
+skill = ca_de0,ca_su1
+merce = lys_ca1,lys_ca2up
+member = catholica2 * 7
+}
+class lys_ca3 : lys_ca1
+{
+name = •ºˆõ—A‘—Ô‡V
+level = 30
+price = 5400
+mprec = 5
+
+skill = ca_de0,ca_su1
+merce = lys_ca1,lys_ca2up,lys_ca3up
+member = lys_ca3 * 7
+}
+
+//NARV
+class na_ca1 : narv_ca1 {
 race = narv
 name = •ºˆõ—A‘—Ô
 image = na_ca1
 skill = ca_de5,ca_su1
+
+change = narv_ca2 * 15
+merce = narv_ca1
 
 hp = 500
 mp = 100
@@ -717,11 +1284,38 @@ summon_max = 6
 hprec = 0
 mprec = 1
 }
+class narv_ca2 : narv_ca1
+{
+name = •ºˆõ—A‘—Ô‡U
+level = 15
+change = narv_ca3 * 30
+price = 1800
+mprec = 3
+skill = ca_de0,ca_su1
+merce = narv_ca1,narv_ca2up
+member = catholica2 * 7
+}
+class narv_ca3 : narv_ca1
+{
+name = •ºˆõ—A‘—Ô‡V
+level = 30
+price = 5400
+mprec = 5
+
+skill = ca_de0,ca_su1
+merce = narv_ca1,narv_ca2up,narv_ca3up
+member = narv_ca3 * 7
+}
+
+//ORV
 class orv_ca1 : ne_ca1 {
 race = orv
 name = •ºˆõ—A‘—Ô
 image = orv_ca1
 skill = ca_de6,ca_su1
+
+change = orv_ca2 * 15
+merce = orv_ca1
 
 hp = 600
 mp = 120
@@ -735,6 +1329,28 @@ move = 110
 summon_max = 5
 hprec = 0
 mprec = 2
+}
+class orv_ca2 : orv_ca1
+{
+name = •ºˆõ—A‘—Ô‡U
+level = 15
+change = orv_ca3 * 30
+price = 1800
+mprec = 3
+skill = ca_de0,ca_su1
+merce = orv_ca1,orv_ca2up
+member = catholica2 * 7
+}
+class orv_ca3 : orv_ca1
+{
+name = •ºˆõ—A‘—Ô‡V
+level = 30
+price = 5400
+mprec = 5
+
+skill = ca_de0,ca_su1
+merce = orv_ca1,orv_ca2up,orv_ca3up
+member = orv_ca3 * 7
 }
 
 
@@ -915,4 +1531,216 @@ move = 120
 brave = on*60
 hprec = 0
 mprec = 0
+}
+
+
+//ãˆÊŒÙ—p
+//’†íÔ
+class ne_mt2up : ne_mt2
+{
+change = ne_mt3up * 30
+}
+class ne_mt3up : ne_mt3
+{
+}
+class er_mt2up : er_mt2
+{
+change = er_mt3up * 30
+}
+class er_mt3up : er_mt3
+{
+}
+class car_mt2up : car_mt2
+{
+change = car_mt3up * 30
+}
+class car_mt3up : car_mt3
+{
+}
+class ava_mt2up : car_mt2
+{
+change = ava_mt3up * 30
+}
+class ava_mt3up : ava_mt3
+{
+}
+class lys_mt2up : car_mt2
+{
+change = lys_mt3up * 30
+}
+class lys_mt3up : ava_mt3
+{
+}
+class narv_mt2up : car_mt2
+{
+change = narv_mt3up * 30
+}
+class narv_mt3up : ava_mt3
+{
+}
+class orv_mt2up : car_mt2
+{
+change = orv_mt3up * 30
+}
+class orv_mt3up : ava_mt3
+{
+}
+
+//díÔ
+class ne_ht2up : ne_ht2
+{
+change = ne_ht3up * 30
+}
+class ne_ht3up : ne_ht3
+{
+}
+class er_ht2up : er_ht2
+{
+change = er_ht3up * 30
+}
+class er_ht3up : er_ht3
+{
+}
+class car_ht2up : car_ht2
+{
+change = car_ht3up * 30
+}
+class car_ht3up : car_ht3
+{
+}
+class ava_ht2up : car_ht2
+{
+change = ava_ht3up * 30
+}
+class ava_ht3up : ava_ht3
+{
+}
+class lys_ht2up : car_ht2
+{
+change = lys_ht3up * 30
+}
+class lys_ht3up : ava_ht3
+{
+}
+class narv_ht2up : car_ht2
+{
+change = narv_ht3up * 30
+}
+class narv_ht3up : ava_ht3
+{
+}
+class orv_ht2up : car_ht2
+{
+change = orv_ht3up * 30
+}
+class orv_ht3up : ava_ht3
+{
+}
+
+//’´díÔ
+class er_sht2up : er_sht2
+{
+change = er_sht3up * 30
+}
+
+//©‘––C
+class ne_ar2up : ne_ar2
+{
+change = ne_ar3up * 30
+}
+class ne_ar3up : ne_ar3
+{
+}
+class er_ar2up : er_ar2
+{
+change = er_ar3up * 30
+}
+class er_ar3up : er_ar3
+{
+}
+class car_ar2up : car_ar2
+{
+change = car_ar3up * 30
+}
+class car_ar3up : car_ar3
+{
+}
+class ava_ar2up : car_ar2
+{
+change = ava_ar3up * 30
+}
+class ava_ar3up : ava_ar3
+{
+}
+class lys_ar2up : car_ar2
+{
+change = lys_ar3up * 30
+}
+class lys_ar3up : ava_ar3
+{
+}
+class narv_ar2up : car_ar2
+{
+change = narv_ar3up * 30
+}
+class narv_ar3up : ava_ar3
+{
+}
+class orv_ar2up : car_ar2
+{
+change = orv_ar3up * 30
+}
+class orv_ar3up : ava_ar3
+{
+}
+
+//•ºˆõ—A‘—Ô
+class ne_ca2up : ne_ca2
+{
+change = ne_ca3up * 30
+}
+class ne_ca3up : ne_ca3
+{
+}
+class er_ca2up : er_ca2
+{
+change = er_ca3up * 30
+}
+class er_ca3up : er_ca3
+{
+}
+class car_ca2up : car_ca2
+{
+change = car_ca3up * 30
+}
+class car_ca3up : car_ca3
+{
+}
+class ava_ca2up : car_ca2
+{
+change = ava_ca3up * 30
+}
+class ava_ca3up : ava_ca3
+{
+}
+class lys_ca2up : ca_ca2
+{
+change = lys_ca3up * 30
+}
+class lys_ca3up : ava_ca3
+{
+}
+class narv_ca2up : ca_ca2
+{
+change = narv_ca3up * 30
+}
+class narv_ca3up : ava_ca3
+{
+}
+class orv_ca2up : ca_ca2
+{
+change = orv_ca3up * 30
+}
+class orv_ca3up : ava_ca3
+{
 }
