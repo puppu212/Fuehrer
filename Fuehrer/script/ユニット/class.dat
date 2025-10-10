@@ -368,7 +368,7 @@ move = 130
 hprec = 0
 mprec = 0
 
-skill = ta_tr1,ta_gu1,ta_re1,ta_de1
+skill = ta_tr1,ta_gu1,ta_re1,ta_de2
 }
 class orv_mt2 : orv_mt1
 {
