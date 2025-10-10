@@ -257,11 +257,23 @@ Collection: Tino Rossi 1933–1937
 License: Public Domain Mark 1.0 Universal
 URL: https://archive.org/details/TinoRossiCollection1933-1937
 
-Recording title: Lorsque Les Etoiles (002)
+78rpm Collection  (1920s 1930s Popular Music)
 Original format: 78rpm record
 Source: Archive.org
 License: Public Domain Mark 1.0 Universal
-URL: https://archive.org/details/78rpmCollection1920s1930sPopularMusic/002+Lorsque+Les+Etoiles.m4a
+URL: https://archive.org/details/78rpmCollection1920s1930sPopularMusic
+
+78rpm Collection (1920s 1930s Popular Music) Edison Popular Series
+Original format: 78rpm record
+Source: Archive.org
+License: Public Domain Mark 1.0 Universal
+URL: https://archive.org/details/78rpmCollection1920s1930sPopularMusicEdisonPopularSeries
+
+78rpm Collection (1920s 1930s Popular Music) PAUL SMALL
+Original format: 78rpm record
+Source: Archive.org
+License: Public Domain Mark 1.0 Universal
+URL: https://archive.org/details/78rpmCollection1920s1930sPopularMusicPAULSMALL
 
 The Great 78 Project -----------------------------------------------------------
 URL: https://great78.archive.org/
