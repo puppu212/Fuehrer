@@ -1062,7 +1062,7 @@ race = orv
 sex = male
 finance = 0
 
-skill = ca_su1,ca_de5,ls_attack_orv,ls_summon_orv,ls_t1
+skill = ca_su1,ca_de6,ls_attack_orv,ls_summon_orv,ls_t1
 
 staff = orv,orv_ca1
 friend = orv,orv_ca1

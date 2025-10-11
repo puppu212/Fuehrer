@@ -1109,7 +1109,7 @@ level = 15
 change = er_ca3 * 30
 price = 1800
 mprec = 3
-skill = ca_de0,ca_su1
+skill = ca_de1,ca_su1
 merce = er_ca1,er_ca2up
 member = catholica2 * 7
 }
@@ -1120,7 +1120,7 @@ level = 30
 price = 5400
 mprec = 5
 
-skill = ca_de0,ca_su1
+skill = ca_de1,ca_su1
 merce = er_ca1,er_ca2up,er_ca3up
 member = er_ca3 * 7
 }
@@ -1155,7 +1155,7 @@ level = 15
 change = car_ca3 * 30
 price = 1800
 mprec = 3
-skill = ca_de0,ca_su1
+skill = ca_de2,ca_su1
 merce = ar_ca1,car_ca2up
 member = catholica2 * 7
 }
@@ -1166,7 +1166,7 @@ level = 30
 price = 5400
 mprec = 5
 
-skill = ca_de0,ca_su1
+skill = ca_de2,ca_su1
 merce = ar_ca1,car_ca2up,car_ca3up
 member = car_ca3 * 7
 }
@@ -1202,7 +1202,7 @@ level = 15
 change = ava_ca3 * 30
 price = 1800
 mprec = 3
-skill = ca_de0,ca_su1
+skill = ca_de3,ca_su1
 merce = av_ca1,ava_ca2up
 member = catholica2 * 7
 }
@@ -1213,7 +1213,7 @@ level = 30
 price = 5400
 mprec = 5
 
-skill = ca_de0,ca_su1
+skill = ca_de3,ca_su1
 merce = av_ca1,ava_ca2up,ava_ca3up
 member = ava_ca3 * 7
 }
@@ -1248,7 +1248,7 @@ level = 15
 change = lys_ca3 * 30
 price = 1800
 mprec = 3
-skill = ca_de0,ca_su1
+skill = ca_de4,ca_su1
 merce = ly_ca1,lys_ca2up
 member = catholica2 * 7
 }
@@ -1259,7 +1259,7 @@ level = 30
 price = 5400
 mprec = 5
 
-skill = ca_de0,ca_su1
+skill = ca_de4,ca_su1
 merce = ly_ca1,lys_ca2up,lys_ca3up
 member = lys_ca3 * 7
 }
@@ -1294,7 +1294,7 @@ level = 15
 change = narv_ca3 * 30
 price = 1800
 mprec = 3
-skill = ca_de0,ca_su1
+skill = ca_de5,ca_su1
 merce = na_ca1,narv_ca2up
 member = catholica2 * 7
 }
@@ -1305,7 +1305,7 @@ level = 30
 price = 5400
 mprec = 5
 
-skill = ca_de0,ca_su1
+skill = ca_de5,ca_su1
 merce = na_ca1,narv_ca2up,narv_ca3up
 member = narv_ca3 * 7
 }
@@ -1340,7 +1340,7 @@ level = 15
 change = orv_ca3 * 30
 price = 1800
 mprec = 3
-skill = ca_de0,ca_su1
+skill = ca_de6,ca_su1
 merce = orv_ca1,orv_ca2up
 member = catholica2 * 7
 }
@@ -1351,7 +1351,7 @@ level = 30
 price = 5400
 mprec = 5
 
-skill = ca_de0,ca_su1
+skill = ca_de6,ca_su1
 merce = orv_ca1,orv_ca2up,orv_ca3up
 member = orv_ca3 * 7
 }
