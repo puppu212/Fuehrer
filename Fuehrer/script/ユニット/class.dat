@@ -1265,7 +1265,7 @@ member = lys_ca3 * 7
 }
 
 //NARV
-class na_ca1 : narv_ca1 {
+class na_ca1 : ne_ca1 {
 race = narv
 name = •ºˆõ—A‘—ŽÔ
 image = narv_ca1
