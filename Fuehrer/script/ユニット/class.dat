@@ -8,8 +8,8 @@ radius_press = 100
 brave = 50
 price = 500
 scream = scream
-leader_skill = item_leader
-dead_event = break_level
+leader_skill = @
+dead_event = @
 }
 
 unit base1 : base
@@ -58,7 +58,7 @@ move_max = 200
 hprec_max = 200
 mprec_max = 200
 
-movetype = grass
+movetype = @
 }
 
 

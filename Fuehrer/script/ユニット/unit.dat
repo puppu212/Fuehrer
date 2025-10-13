@@ -97,7 +97,7 @@ name = Panzer-Division Kempf
 
 staff = er,er_mt1,er_ar1,er_ca1
 friend = er,er_mt1,er_ar1,er_ca1
-merce = er_mt1,er_ar1,er_ca1
+//merce = er_mt1,er_ar1,er_ca1
 class = er_mt1
 member = er_mt1 * 7
 
@@ -937,7 +937,7 @@ skill = ta_tr1,ta_gu1,ta_re1,ta_de2,ls_attack_orv3,ls_summon_orv3,ls_t3
 }
 unit orv_ht_ge1 : Noelle
 {
-name = 1st 'Big Red One' Division
+name = 1st 'Big Red One'
 face = orv_ge0.png
 image = orv_ht1
 sex = male
@@ -956,19 +956,19 @@ dead = Ç¨Ç·Ç”ÇÒ
 }
 unit orv_ht_ge2 : orv_ht_ge1
 {
-name = 2nd 'Indianhead' Division
+name = 2nd 'Indianhead'
 sortkey = 3
 }
 unit orv_ht_ge3 : orv_ht_ge1
 {
-name = 3rd 'Rock of the Marne' Division
+name = 3rd 'Rock of the Marne'
 sortkey = 4
 }
 
 //íÜêÌé‘
 unit orv_mt_ge1 : base
 {
-name = 4th 'Red Devils' Division
+name = 4th 'Red Devils'
 face = orv_ge0.png
 same_call = on
 image = orv_mt1
@@ -989,34 +989,34 @@ sortkey = 5
 }
 unit  orv_mt_ge2 : orv_mt_ge1
 {
-name = 5th 'Yankee' Division
+name = 5th 'Yankee'
 sortkey = 6
 }
 unit orv_mt_ge3 : orv_mt_ge1
 {
-name = 6th 'Sightseeing Sixth' Division
+name = 6th 'Sightseeing Sixth'
 sortkey = 7
 }
 unit orv_mt_ge4 : orv_mt_ge1
 {
-name = 7th 'Blue and Gray' Division
+name = 7th 'Blue and Gray'
 sortkey = 8
 }
 unit orv_mt_ge5 : orv_mt_ge1
 {
-name = 8th 'Sunshine' Division
+name = 8th 'Sunshine'
 sortkey = 17
 }
 unit orv_mt_ge6 : orv_mt_ge1
 {
-name = 9th 'Sunset' Division
+name = 9th 'Sunset'
 sortkey = 18
 }
 
 //é©ëññC
 unit orv_ar_ge1 : base
 {
-name = 31th 'Red Arrow' Division
+name = 31th 'Red Arrow'
 face = orv_ge0.png
 same_call = on
 image = orv_ar1
@@ -1037,7 +1037,7 @@ sortkey = 9
 }
 unit orv_ar_ge2 : orv_ar_ge1
 {
-name = 32th 'Old Hickory' Division
+name = 32th 'Old Hickory'
 sortkey = 10
 }
 unit orv_ar_ge3 : orv_ar_ge1
@@ -1047,14 +1047,14 @@ sortkey = 11
 }
 unit orv_ar_ge4 : orv_ar_ge1
 {
-name = 32th 'Winged Victory' Division
+name = 32th 'Winged Victory'
 sortkey = 12
 }
 
 //ï∫àıóAëóé‘
 unit orv_ca_ge1 : base
 {
-name = 41th 'Red Bull' Division
+name = 41th 'Red Bull'
 face = orv_ge0.png
 same_call = on
 image = orv_ca1
@@ -1075,17 +1075,17 @@ sortkey = 13
 }
 unit orv_ca_ge2 : orv_ca_ge1
 {
-name = 42th 'Golden Cross' Division
+name = 42th 'Golden Cross'
 sortkey = 14
 }
 unit orv_ca_ge3 : orv_ca_ge1
 {
-name = 43th 'Cyclone' Division
+name = 43th 'Cyclone'
 sortkey = 15
 }
 unit orv_ca_ge4 : orv_ca_ge1
 {
-name = 44th 'Thunderbird' Division
+name = 44th 'Thunderbird'
 sortkey = 16
 }
 

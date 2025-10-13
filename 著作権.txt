@@ -301,7 +301,11 @@ URL: https://great78.archive.org/
 
 Wikimedia Commons ---------------------------------------------------------------
 
-License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+License:
+Creative Commons Attribution-Share Alike 3.0 Unported
+Deed: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+Public Domain (U.S. Government Work, 17 U.S.C. §105)
 
 Horst Wessel-Lied Instrumental
 Source: Wikimedia Commons
@@ -323,10 +327,30 @@ Source: Wikimedia Commons
 License: Public domain
 URL: https://commons.wikimedia.org/wiki/File:Giovinezza.ogg
 
+British Grenadiers & Here's to the Maiden
+Source: Wikimedia Commons
+License: Public domain (Canadian Government work / Crown copyright)
+URL: https://commons.wikimedia.org/wiki/File:British_Grenadiers_%26_Here%27s_to_the_Maiden.ogg
+
+Albert Farrington - It's a Long Long Way to Tipperary - 1915 - remastered.oga
+Source: Wikimedia Commons
+License: Public domain (U.S. Government work / Crown copyright)
+URL: https://commons.wikimedia.org/wiki/File:Albert_Farrington_-_It%27s_a_Long_Long_Way_to_Tipperary_-_1915_-_remastered.oga
+
+Internationale
+Source: Wikimedia Commons
+License: Creative Commons Attribution-Share Alike 3.0 Unported
+URL: https://commons.wikimedia.org/wiki/File:Internationale.ogg
+
 Svyaschennaya_Voyna_vocal
 Source: Wikimedia Commons
 License: Public domain
 URL: https://commons.wikimedia.org/wiki/File:Svyaschennaya_Voyna_vocal.ogg
+
+Farewell of Slavianka (stereo)
+Source: Wikimedia Commons
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://commons.wikimedia.org/wiki/File:Farewell_of_Slavianka_(stereo).ogg
 
 Recording title: When Johnny Comes Marching Home
 Performer: United States Military Academy Band
@@ -415,5 +439,6 @@ License: Free to use for commercial and non-commercial projects. No attribution 
 URL: https://www.springin.org/sound-stock/
 
 音人 ----------------------------------------------------------------------------
+
 License: Free for personal, circle, school, and volunteer use. Commercial or business use requires prior contact.
 URL: https://on-jin.com/sound/sen.php
