@@ -352,6 +352,11 @@ Source: Wikimedia Commons
 License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 URL: https://commons.wikimedia.org/wiki/File:Farewell_of_Slavianka_(stereo).ogg
 
+Kevin MacLeod - P. I. Tchaikovsky: Dance of the Sugar Plum Fairy
+Source: Wikimedia Commons
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+URL: https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_P_I_Tchaikovsky_Dance_of_the_Sugar_Plum_Fairy.ogg
+
 Recording title: When Johnny Comes Marching Home
 Performer: United States Military Academy Band
 Source: Wikimedia Commons

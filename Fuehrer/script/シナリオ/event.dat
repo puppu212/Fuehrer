@@ -73,6 +73,185 @@ playWorld()
 }
 
 
+//NARV
+story story_p1_op
+{
+friend = stest
+if(isPlayer(p1) && yet(event_p1_op)){routine(event_p1_op)}
+
+//戦略説明
+if (isPlayer(p1) == 1 && op_p1_st == 0) {
+set(op_p1_st, 1)
+select(op_p1_st_test1_select, 戦略概要を確認しますか？)
+if(op_p1_st_test1_select == 1){
+event(op_p1_st_test1)
+}
+}
+
+}
+
+//OP
+event event_p1_op
+{
+scroll(s037)
+spotmark(p1)
+select(seldat,オープニングを見ますか？)
+if (seldat == 0)
+{
+return()
+}
+event(event_p1_op2)
+}
+
+event event_p1_op2
+{
+playBGM(narv_story1.mp3)
+volume(100)
+bcg = corridor.png
+
+msg(コツ…コツ…コツ…)
+msg(廊下に響く足音は、$死そのものが石床を叩くように重苦しく鳴り渡った。)
+talk(narv_ge0, はぁ...)
+msg(下級官吏アンドレイは、$手にした書類束の重みを呪わずにはいられなかった。)
+msg(吐き出した息は、陰鬱な空気に吸い込まれ、$白い亡霊のように漂ったかと思うと、たちまち消え去った。)
+msg(それは彼自身の存在の儚さを、冷酷に映し出すかのようであった。)
+
+talk(narv_ge0, かったりぃなぁ...)
+msg(そのつぶやきは、暗がりの壁に吸い込まれ、$永遠の沈黙の中へ葬られた。)
+msg(帝国との条約、不可侵――それは氷の橋のように冷たく脆い。)
+msg(誰もがその終わりを知っていながら、$それを「順調」と報告しなければならない。)
+msg(まるで、死者に花を手向ける儀式のようだった。)
+
+event(event_p1_op3)
+}
+
+event event_p1_op3
+{
+bcg = kremlin.png
+msg(窓外の空は曇り、黒雲が押し寄せていた。)
+msg(雪はまだ降らぬが、その白い布はすでに天空に広げられ、$地上を覆い尽くす時を待っている。)
+msg(雪はこの地にあって、冷たく無慈悲な見張り人 $――永久に瞼を閉ざすことのない死の影として、$暗く閉ざされた宮殿の奥を静かに見据えていた。)
+
+event(event_p1_op4)
+}
+
+event event_p1_op4
+{
+bcg = corridor.png
+msg(ガヤガヤ...)
+msg(執務室の前では、仲間のクマたちが影のようにうごめき、$互いに順番を押し付け合っていた。)
+msg(だが書類を抱えたアンドレイに、逃げ道など用意されてはいなかった。)
+
+msg(ガチャ)
+
+event(event_p1_op5)
+}
+
+event event_p1_op5
+{
+bcg = office.png
+msg(扉を開けた瞬間、熱気と蒸気が生き物のように襲いかかる。)
+msg(奥のサモワールから立ちのぼる白煙は、$墓場の霧のように濃く、息を詰まらせた。)
+msg(机に広げられた地図の上で、$書記長ソフィーヤは沈黙を纏い、爪先で机を叩いていた。)
+msg(その音は、凍りついた湖面を叩いたときのように、$澄みながらも底知れぬ響きを残した。)
+
+talk(narv_ge0, 同志ソフィーヤ......)
+msg(アンドレイの声は掠れ、弱々しかった。)
+talk(narv_ge0, 帝国との不可侵条約は......いまのところ、順調です。)
+
+msg(沈黙が広がる。)
+msg(蒸気は渦を巻き、壁に影を作り、$まるで目に見えぬ幽霊が囁き合うかのようであった。)
+
+talk(Sofiya, ふぅん...)
+msg(顔を上げぬまま、ソフィーヤの口角がかすかに歪んだ。)
+talk(Sofiya, 氷みたいに...)
+talk(Sofiya, 長持ちするといいわねぇ。)
+
+msg(兵士たちは息を殺し、影と化した。@部屋の空気は一層濃くなり、呼吸さえ奪い去ろうとしていた。)
+
+talk(Sofiya, そういえば......)
+talk(Sofiya, あなた、今の職場に不満があるんでしょう？)
+
+talk(narv_ge0, い、いえ！ そんなつもりは──！)
+
+talk(Sofiya, うふふ...)
+msg(笑い声は甘美でありながら、墓穴に吹き込む風のように冷たかった。)
+talk(Sofiya, いいのよ、正直な気持ちは大切だから。)
+talk(Sofiya,けれど、あなたにはもっとふさわしい場所があるわ。)
+
+talk(Sofiya, 広大で、空気は澄んでいて、$雪が永遠に寄り添ってくれる場所...)
+talk(Sofiya, 今の職場よりずっと天国に近い素敵な場所よ。)
+msg(ガタンッ！バタバタバタッ！)
+msg(奥の扉が突如として開かれ、兵士たちが現れた。)
+
+talk(Sofiya, もう二度と会えないなんて寂しいわ。@さようなら、私のかわいいミーシャちゃん。)
+talk(narv_ge0, え...？)
+
+msg(彼らは影の群れのように無言でアンドレイを拘束し、$闇に引きずり込んだ。)
+talk(narv_ge0, ク.........クマーー！！)
+
+msg(......)
+msg(............)
+msg(..................)
+
+msg(足音が遠ざかると、執務室には白煙と机と地図だけが残された。)
+msg(仲間のクマたちは誰ひとり声を発せず、$ただ亡霊のように立ち尽くしていた。 )
+
+msg(アンドレイの消失は、まるで初めから存在しなかったかのようだった。)
+msg(静寂だけが、重苦しい霧となって漂い続けた。 )
+}
+
+//戦略概要
+event op_p1_st_test1
+{
+playBGM(narv_story2.mp3)
+volume(100)
+
+scroll(Sofiya)
+showSpotMark(p1)
+wait()
+
+talk(narv_ge00, ......えー、前任の担当官が突如として長期休暇を取得しましたので、私が代わりに戦略概要を説明させていただきます。)
+
+hideSpotMark(p1)
+scroll(Elise)
+showSpotMark(p5)
+wait()
+
+talk(narv_ge00, まず、帝国との不可侵条約について、$現状の運用は順調です。)
+talk(narv_ge00, 軍の配置、外交上の連絡、各担当部局の報告も滞りなく実施されています。)
+
+talk(narv_ge00, また、外交面では定期的な連絡や情報交換が行われており、異常な動きや摩擦は報告されていません。)
+talk(narv_ge00, 総じて、条約は現状維持されており、$現段階では特段の問題は確認されていません。)
+
+hideSpotMark(p5)
+scroll(s062)
+showSpotMark(s062)
+wait()
+
+talk(narv_ge00, 続いて、北方方面への作戦計画についてご説明します。)
+talk(narv_ge00, 目的は、レニングラード周辺の防衛線を強化し、$国境の安全を確保することです。)
+talk(narv_ge00, 部隊の配備や補給体制の整備はすでに開始されており、$必要な準備は進んでおります。)
+talk(narv_ge00, また、現在確認されている問題はなく、$引き続き状況を監視しながら作戦準備を進めます。)
+
+hideSpotMark(p1)
+scroll(Sofiya)
+showSpotMark(p1)
+wait()
+
+talk(Sofiya, ......)
+talk(narv_ge0, ......な...なにか？)
+
+talk(Sofiya, 気にしなくていいわ......$ずっと一緒にいられるといいわねぇ。)
+talk(Sofiya, かわいいミーシャちゃん)
+
+event(op_p2_st_test2)
+}
+event op_p2_st_test2 {
+playWorld()
+}
+
+
 //イベント
 story stest
 {
@@ -265,7 +444,7 @@ event event_p1_GKO
 {
 if(isWatching() == 0)
 {
-loopBGM(narv_story1.mp3)
+loopBGM(narv_story3.mp3)
 volume(100)
 }
 
