@@ -111,7 +111,7 @@ world8.mp3,world9.mp3,world10.mp3,world11.mp3,world12.mp3,world13.mp3,world14.mp
 world15.mp3,world16.mp3,world17.mp3,world18.mp3,world19.mp3,world20.mp3,world21.mp3
 
 battle_bgm = @
-title_volume = 80
+title_volume = 70
 world_volume = 60
 battle_volume = @
 sound_volume = -3000

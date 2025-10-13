@@ -122,7 +122,7 @@ member = s037,s038,s039,s040,s041,s042,s043,s044,s045,s046,s047,s048,s049,s050,s
 staff = narv,na_mt1,na_ar1,na_ca1
 merce = na_ht1,na_mt1,na_ar1,na_ca1
 text = 
-[OP—L$
+[OP—L]$
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.;
 
 diplo = p5*0,p4*0,p3*50,p2*50
