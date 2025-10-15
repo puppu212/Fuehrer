@@ -1,4 +1,4 @@
-//OP - ER
+//ER
 story story_p5_op
 {
 friend = stest
@@ -73,6 +73,127 @@ playWorld()
 }
 
 
+//LYS
+story story_p2_op
+{
+friend = stest
+if(isPlayer(p2) == 1 && yet(event_p2_op)){routine(event_p2_op)}
+
+//戦略概要
+if (isPlayer(p2) && op_p2_st == 0 && yet(op_p2_st)) {
+set(op_p2_st, 1)
+select(op_p2_st_select, 戦略概要を確認しますか？)
+if(op_p2_st_select == 1){event(op_p2_st)}
+}
+}
+
+//OP
+event event_p2_op
+{
+scroll(Charlotte)
+spotmark(p2)
+wait()
+
+select(seldat,オープニングを見ますか？)
+if (seldat == 0)
+{
+return()
+}
+event(event_p2_op2)
+}
+
+event event_p2_op2
+{
+bcg = versailles2.png
+playBGM(lys_story1.mp3)
+volume(100)
+
+talk(lys_ge0, コケー！)
+msg(白と金の羽根をたたえた鶏の将軍が$任務の重みを漂わせて室内に滑り込んできた。)
+
+talk(Charlotte, あら、ちょうどお菓子ができたところなの。@一緒に食べましょう？)
+msg(シャルロットは焼きたてのマドレーヌをそっと皿に置いた。)
+msg(甘く香ばしい匂いは空間に溶け込み、$窓から差し込む光は淡い金色のヴェールとなってゆらりと揺れている。)
+
+talk(lys_ge0, コケー！)
+talk(Charlotte, なぁに？ お手紙？)
+msg(シャルロットは微笑みながら封書を受け取り、$指先で軽く触れ、文字の行間に目を走らせた。)
+
+talk(Charlotte, エリーゼちゃんのことだわ。)
+msg(封筒の中には、帝国軍の進軍、$東方地域の街々の様子、ラインラントでの軍の動き @――その瞬間に生まれている出来事が、淡々と記されていた。)
+
+talk(Charlotte, まぁ、大変なのね。)
+msg(その言葉はどこか儚い響きを帯び、$封書の冷たさと光の柔らかさの間で揺れた。)
+
+event(event_p2_op3)
+}
+
+event event_p2_op3
+{
+bcg = versailles1.png
+
+msg(窓の外では小鳥がさえずり、$庭師の剪定ばさみが微かに響いている。)
+msg(部屋の時間はその音とともにゆるやかに流れ、$空間全体が穏やかに息をつくように感じられた。)
+
+event(event_p2_op4)
+}
+
+event event_p2_op4
+{
+bcg = versailles2.png
+
+talk(Charlotte, さて、今日の任務は私たちのマドレーヌを守ることね。)
+talk(lys_ge0, コケー！)
+
+msg(言葉は空気に溶け、$柔らかな光が部屋の隅々まで満ちていった。)
+}
+
+//戦略概要
+event op_p2_st
+{
+playBGM(lys_story2.mp3)
+volume(80)
+
+scroll(Charlotte)
+showSpotMark(p2)
+wait()
+
+talk(lys_ge0, コケー！)
+
+hideSpotMark(p2)
+scroll(s029)
+showSpotMark(s029)
+wait()
+
+talk(Charlotte, そうね、私たちには要塞線があるんだもの。安心だわ。)
+talk(lys_ge0, コケー！)
+
+hideSpotMark(s029)
+scroll(s068)
+showSpotMark(s068)
+wait()
+
+talk(Charlotte, え？北東の森？$あんなところに入ったら迷子になっちゃうわ。$勝手に入っちゃだめよ。)
+talk(lys_ge0, コケー！)
+
+hideSpotMark(s068)
+scroll(Charlotte)
+showSpotMark(p2)
+wait()
+
+talk(Charlotte, ねぇ、まだ焼いたパイが残ってるの。食べる？)
+talk(lys_ge0, コケー！)
+talk(Charlotte, はい、@鶏肉のヴォル・オ・ヴァンよ)
+talk(lys_ge0, 　)
+talk(Charlotte, 冗談よ。)
+
+event(op_p2_st2)
+}
+event op_p2_st2 {
+playWorld()
+}
+
+
 //NARV
 story story_p1_op
 {
@@ -114,7 +235,7 @@ msg(廊下に響く足音は、$死そのものが石床を叩くように重苦しく鳴り渡った。)
 talk(narv_ge0, はぁ...)
 msg(下級官吏アンドレイは、$手にした書類束の重みを呪わずにはいられなかった。)
 msg(吐き出した息は、陰鬱な空気に吸い込まれ、$白い亡霊のように漂ったかと思うと、たちまち消え去った。)
-msg(それは彼自身の存在の儚さを、冷酷に映し出すかのようであった。)
+msg(それは彼自身の存在の儚さを、冷酷に映し出していた。)
 
 talk(narv_ge0, かったりぃなぁ...)
 msg(そのつぶやきは、暗がりの壁に吸い込まれ、$永遠の沈黙の中へ葬られた。)
@@ -139,7 +260,7 @@ event event_p1_op4
 {
 bcg = corridor.png
 msg(ガヤガヤ...)
-msg(執務室の前では、仲間のクマたちが影のようにうごめき、$互いに順番を押し付け合っていた。)
+msg(執務室の前では、仲間のクマたちが身じろぎし、$互いに順番を押し付け合っていた。)
 msg(だが書類を抱えたアンドレイに、逃げ道など用意されてはいなかった。)
 
 msg(ガチャ)
@@ -160,14 +281,14 @@ msg(アンドレイの声は掠れ、弱々しかった。)
 talk(narv_ge0, 帝国との不可侵条約は......いまのところ、順調です。)
 
 msg(沈黙が広がる。)
-msg(蒸気は渦を巻き、壁に影を作り、$まるで目に見えぬ幽霊が囁き合うかのようであった。)
+msg(蒸気は渦を巻き、壁に影を作り、$まるで目に見えぬ幽霊が囁き合うかのようだった。)
 
 talk(Sofiya, ふぅん...)
 msg(顔を上げぬまま、ソフィーヤの口角がかすかに歪んだ。)
 talk(Sofiya, 氷みたいに...)
 talk(Sofiya, 長持ちするといいわねぇ。)
 
-msg(兵士たちは息を殺し、影と化した。@部屋の空気は一層濃くなり、呼吸さえ奪い去ろうとしていた。)
+msg(兵士たちは息を殺し、張りつめた弦のように動きを止めた。@部屋の空気は一層濃くなり、呼吸さえ奪い去ろうとしていた。)
 
 talk(Sofiya, そういえば......)
 talk(Sofiya, あなた、今の職場に不満があるんでしょう？)
@@ -219,7 +340,7 @@ showSpotMark(p5)
 wait()
 
 talk(narv_ge00, まず、帝国との不可侵条約について、$現状の運用は順調です。)
-talk(narv_ge00, 軍の配置、外交上の連絡、各担当部局の報告も滞りなく実施されています。)
+talk(narv_ge00, 軍の配置、各担当部局の報告も滞りなく実施されています。)
 
 talk(narv_ge00, また、外交面では定期的な連絡や情報交換が行われており、異常な動きや摩擦は報告されていません。)
 talk(narv_ge00, 総じて、条約は現状維持されており、$現段階では特段の問題は確認されていません。)
@@ -245,9 +366,9 @@ talk(narv_ge0, ......な...なにか？)
 talk(Sofiya, 気にしなくていいわ......$ずっと一緒にいられるといいわねぇ。)
 talk(Sofiya, かわいいミーシャちゃん)
 
-event(op_p2_st_test2)
+event(op_p1_st_test2)
 }
-event op_p2_st_test2 {
+event op_p1_st_test2 {
 playWorld()
 }
 
@@ -322,21 +443,21 @@ wait()
 unionPower(p5, p2)
 
 addUnit(Charlotte, p3)
-addUnit(ly_ht_ge1, p3)
-addUnit(ly_ht_ge2, p3)
-addUnit(ly_ht_ge3, p3)
-eraseUnit(ly_mt_ge1)
-eraseUnit(ly_mt_ge2)
-eraseUnit(ly_mt_ge3)
-eraseUnit(ly_mt_ge4)
-eraseUnit(ly_ar_ge1)
-eraseUnit(ly_ar_ge2)
-eraseUnit(ly_ar_ge3)
-eraseUnit(ly_ar_ge4)
-eraseUnit(ly_ca_ge1)
-eraseUnit(ly_ca_ge2)
-eraseUnit(ly_ca_ge3)
-eraseUnit(ly_ca_ge4)
+addUnit(lys_ht_ge1, p3)
+addUnit(lys_ht_ge2, p3)
+addUnit(lys_ht_ge3, p3)
+eraseUnit(lys_mt_ge1)
+eraseUnit(lys_mt_ge2)
+eraseUnit(lys_mt_ge3)
+eraseUnit(lys_mt_ge4)
+eraseUnit(lys_ar_ge1)
+eraseUnit(lys_ar_ge2)
+eraseUnit(lys_ar_ge3)
+eraseUnit(lys_ar_ge4)
+eraseUnit(lys_ca_ge1)
+eraseUnit(lys_ca_ge2)
+eraseUnit(lys_ca_ge3)
+eraseUnit(lys_ca_ge4)
 
 dialog(リゾリアが降伏しました。)
 dialog(シャルロットはアヴァロンに亡命しました。)
