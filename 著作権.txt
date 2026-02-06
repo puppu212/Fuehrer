@@ -112,6 +112,11 @@ Modifications: upscaled and resized.
 License: Creative Commons Attribution-ShareAlike 3.0 Germany (CC BY-SA 3.0 DE)
 URL: https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H26035,_Berlin,_Neue_Reichskanzlei,_Arbeitszimmer_Hitlers.jpg
 
+Palazzo Venezia Roma 11
+Source: Wikimedia Commons
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+URL: https://commons.wikimedia.org/wiki/File:Palazzo_Venezia_Roma_11.JPG
+
 Versailles
 Photographer: Berit Wallenberg
 Modifications: upscaled and resized.
@@ -199,6 +204,17 @@ URL: https://commons.wikimedia.org/wiki/File:3a_Divisione_CC.NN._21_Aprile.png
 Source: Wikimedia Commons
 License: Creative Commons Attribution-Share Alike 4.0 International
 URL: https://commons.wikimedia.org/wiki/File:4a_Divisione_CC.NN._3_Gennaio.png
+
+Bundesarchiv Bild 146‑1980‑053‑53, Sprengpanzer "Goliath"
+Source: Wikimedia Commons  
+License: Creative Commons Attribution‑ShareAlike 3.0 Germany (CC BY‑SA 3.0 de)  
+URL: https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1980-053-53,_Sprengpanzer_%22Goliath%22.jpg
+
+LK P.1500 Monster
+Source: Wikimedia Commons  
+License: Creative Commons Attribution‑ShareAlike 4.0 International (CC BY‑SA 4.0)  
+URL: https://commons.wikimedia.org/wiki/File:LK_P.1500_Monster.gif  
+
 
 //サウンド
 Imperial War Museum (IWM) -------------------------------------------------------
@@ -302,8 +318,14 @@ URL: https://great78.archive.org/
 Wikimedia Commons ---------------------------------------------------------------
 
 License:
+Public Domain Mark 1.0 Universal
+Deed: https://creativecommons.org/publicdomain/mark/1.0/deed.en
+
 Creative Commons Attribution-Share Alike 3.0 Unported
 Deed: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+Deed: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
 Public Domain (U.S. Government Work, 17 U.S.C. §105)
 
@@ -327,6 +349,16 @@ Source: Wikimedia Commons
 License: Public domain
 URL: https://commons.wikimedia.org/wiki/File:Giovinezza.ogg
 
+Funiculì funiculà
+Source: Wikimedia Commons
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+URL: https://commons.wikimedia.org/wiki/File:Funicul%C3%AC_funicul%C3%A0.ogg
+
+'Rule, Britannia!' (United States Army Strings).oga
+Source: Wikimedia Commons
+License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
+URL: https://commons.wikimedia.org/wiki/File:'Rule,_Britannia!_(United_States_Army_Strings).oga
+
 British Grenadiers & Here's to the Maiden
 Source: Wikimedia Commons
 License: Public domain (Canadian Government work / Crown copyright)
@@ -336,6 +368,16 @@ Albert Farrington - It's a Long Long Way to Tipperary - 1915 - remastered.oga
 Source: Wikimedia Commons
 License: Public domain (U.S. Government work / Crown copyright)
 URL: https://commons.wikimedia.org/wiki/File:Albert_Farrington_-_It%27s_a_Long_Long_Way_to_Tipperary_-_1915_-_remastered.oga
+
+Rind nu op i Jesu navn
+Source: Wikimedia Commons
+License: Public domain
+URL: https://commons.wikimedia.org/wiki/File:Rind_nu_op_i_Jesu_navn.ogg
+
+Jean-Baptiste Lully - Marche française.ogg
+Source: Wikimedia Commons
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+URL: https://commons.wikimedia.org/wiki/File:Jean_Baptiste_Lully_-_Marche_fran%C3%A7aise.ogg
 
 Internationale
 Source: Wikimedia Commons
@@ -363,6 +405,26 @@ Source: Wikimedia Commons
 License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 URL: https://commons.wikimedia.org/wiki/File:When_Johnny_Comes_Marching_Home_-_USMA_Band.ogg
 
+Chopin - Preludes, Op. 28 - No. 20 “Funeral March"
+Source: Wikimedia Commons  
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)  
+URL: https://commons.wikimedia.org/wiki/File:Chopin_-_Preludes,_Op._28_-_No._20_%27Funeral_march%27.ogg
+
+Funeral March Chopin Op_72_2
+Source: Wikimedia Commons  
+License: Public domain (Creative Commons CC0 1.0 Universal)  
+URL: https://commons.wikimedia.org/wiki/File:Funeral_March_Chopin_Op_72_2.ogg 
+
+Explosion_10
+Source: Wikimedia Commons  
+License: Public domain  
+URL: https://commons.wikimedia.org/wiki/File:Explosion_10.ogg
+
+Ju_87_Stuka_attack
+Source: Wikimedia Commons  
+License: Public Domain Mark 1.0 Universal
+URL: https://commons.wikimedia.org/wiki/File:Ju_87_Stuka_attack.ogv  
+
 Wikibooks -----------------------------------------------------------------------
 
 License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
@@ -373,6 +435,16 @@ Modifications: beginning of the recording trimmed
 Source: Wikibooks
 License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 URL: https://ja.m.wikibooks.org/wiki/ファイル:Badonviller_-_U.S._Marine_Band.ogg
+
+IMSLP (International Music Score Library Project) --------------------------------
+
+License: Creative Commons Attribution‑ShareAlike 4.0 International (CC BY‑SA 4.0)
+Deed: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+
+Lieder ohne Worte, Op. 62 (Felix Mendelssohn)  
+Source: IMSLP – International Music Score Library Project  
+License: Creative Commons Attribution‑ShareAlike 4.0 International (CC BY‑SA 4.0) 
+URL: https://imslp.org/wiki/Lieder_ohne_Worte%2C_Op.+62_(Mendelssohn%2C_Felix)#IMSLP880902
 
 The U.S. Army Band "Pershing's Own" ---------------------------------------------
 
@@ -437,6 +509,37 @@ Performer: United States Marine Band
 Source: U.S. Marine
 License: Public Domain (U.S. Government Work, 17 U.S.C. §105)
 URL: https://www.marineband.marines.mil/Audio-Resources/The-Complete-Marches-of-John-Philip-Sousa/
+
+Ministry of Defense / Japan Ground Self‑Defense Force (JGSDF) -------------------
+
+Recording title: 陸軍分列行進曲
+Source: Ministry of Defense website (JGSDF)  
+License: Free to use under the Terms of Use of the Ministry of Defense of Japan 
+URL: https://www.mod.go.jp/gsdf/fan/sound/index.html
+
+Recording title: 君が代行進曲
+Source: Ministry of Defense website (JGSDF)  
+License: Free to use under the Terms of Use of the Ministry of Defense of Japan 
+URL: https://www.mod.go.jp/gsdf/fan/sound/index.html
+
+Japan Maritime Self-Defense Force Tokyo Band ------------------------------------
+
+Recording title: 軍艦行進曲
+Source: Japan Maritime Self-Defense Force Tokyo Band
+License: Free to use under the Terms of Use of the Ministry of Defense of Japan 
+URL: https://www.mod.go.jp/msdf/tokyoband/gunkan.html
+
+Pixabay -------------------------------------------------------------------------
+
+Recording title: Nuclear Explosion
+Source: Pixabay
+License: Pixabay Content License (free for commercial and non-commercial use with restrictions)
+URL: https://pixabay.com/ja/sound-effects/nuclear-explosion-386181/
+
+Recording title: short-gas-leak
+Source: Pixabay
+License: Pixabay Content License (free for commercial and non-commercial use with restrictions)
+URL: https://pixabay.com/ja/sound-effects/short-gas-leak-98286/
 
 Springin ------------------------------------------------------------------------
 
